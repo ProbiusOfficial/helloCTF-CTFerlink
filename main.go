@@ -12,6 +12,7 @@ type Friend struct {
 	Avatar      string       `json:"avatar"`
 	URL         string       `json:"url"`
 	RSS         string       `json:"rss"`
+	Direction   string       `json:"direction"`
 	Feed        *gofeed.Feed `json:"-"` // RSS Content
 }
 
