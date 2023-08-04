@@ -1,71 +1,65 @@
 # My Friends
-- [戴兜｜Coding the world.](https://im.daidr.me)
-- [Bird｜aFlyBird0](https://blog.aflybird.cn/)
-- [NX｜这家伙真勤奋，什么都留下了](https://nickxu.me/)
-- [柏喵Sakura｜过气 emo 师傅](https://baimeow.cn/)
-- [Marlene｜<归零人生>](https://blog.marlene.top/)
 - [ek1ng｜Hidden Gem](https://ek1ng.com/)
-- [Atom｜aka asjdf](https://www.homeboyc.cn/)
-- [xyxsw｜大相的问题](https://xyxsw.ltd/)
+- [曾哥｜弱小和无知不是生存的障碍，傲慢才是！](https://blog.zgsec.cn/)
 
 # Recent Blogs
-## [『LeetCode-HOT-100』T21～T30](https://nickxu.me/post/leetcode-hot-100-t21-t30.html)  by [NX](https://nickxu.me/), 2023-08-03
-
-全排列板子题，不解释123456789101112131415161718func permute(nums []int) (ans [][]int) {var dfs func(begain, end int)dfs = func(begain, end int) {if begain == end {// 切片是引用类型，需要深拷贝一下tmp := make([]int, len(nums))
-## [『LeetCode-HOT-100』T11～T20](https://nickxu.me/post/leetcode-hot-100-t11-t20.html)  by [NX](https://nickxu.me/), 2023-07-30
-
-有效的括号栈的经典题目了属于是12345678910111213141516171819202122232425262728293031323334353637383940func isValid(s string) bool {stack := ""for k := 0; k < len(s); k++ {i := s[k]switch i {case '(':stack = stack + s
-## [LLM Agent之结构化输出](https://blog.marlene.top/index.php/develop/88.html)  by [Marlene](https://blog.marlene.top/), 2023-07-26
-
-引言自去年年底以来，GPT的迅速发展诞生了一系列大模型。出现了更新、更大、更强的GPT-4。OpenAI不断推出GPT-4，ChatGPT Plugins，代码解释器，Function calling,图片处理等等。7月的WAIC上，笔者也有幸见到了国内一众企业相继展示自家的大模型。在这段时间里，LLM从最初的PE工程走向智能体交互。而笔者从最开始考虑LLM能不能多人协作，思考”一个专家完成所有任
 ## [Java RMI 攻击梳理总结](https://www.ek1ng.com/java-rmi.html)  by [ek1ng](https://ek1ng.com/), 2023-07-26
 
 RMI 是什么定义RMI（Remote Method Invocation）是远程方法调用，类似RPC（Remote Procedure Calls）。RPC是打包和传送数据结构，而在Java中，通常传递一个完整的对象，包含数据和操作数据的方法。通过RMI，能够让客户端JVM上的对象，像调用本地对象一样调用服务端JVM上的对象。RMI引入了 Stubs（客户端存根）和 Skeletons（服务端骨
 ## [重学 Java 反射机制](https://www.ek1ng.com/java-reflect-learning.html)  by [ek1ng](https://ek1ng.com/), 2023-07-25
 
 近期跟一些java的最新漏洞，发现自己的语言基础太差了，跟着p牛的java安全漫谈重新学一下反射，p牛的文章确实是讲复杂的东西讲的浅显易懂。反射的定义对象可以通过反射获取对应的类，类可以通过反射获取所有方法，拿到的方法可以调用，这种机制就是反射。反射机制在安全方面的意义例如我们要完成RCE，但代码中绝大多数时候并没有Runtime，ProcessBuilder等常见的用于命令执行的类来让我们调用。
-## [go语言三个小项目 ｜ 青训营笔记](https://xyxsw.ltd/2023/07/25/go%E8%AF%AD%E8%A8%80%E4%B8%89%E4%B8%AA%E5%B0%8F%E9%A1%B9%E7%9B%AE%20%EF%BD%9C%20%E9%9D%92%E8%AE%AD%E8%90%A5%E7%AC%94%E8%AE%B0/)  by [xyxsw](https://xyxsw.ltd/), 2023-07-25
-
-猜数字猜数字这个项目非常简单，它涉及到随机数的生成和用户输入操作。我们使用了bufio库来处理输入数据。reader := bufio.NewReader(os.Stdin)input, _ := reader.ReadString('\n')简单字典标准库strconv它主要用于字符和其他类型之间的转换。strconv.Atoi(s string) int 标准库stringsstrings.T
-## [『LeetCode-HOT-100』T1～T10](https://nickxu.me/post/leetcode-hot-100-t1-t10.html)  by [NX](https://nickxu.me/), 2023-07-24
-
-两数之和暴力枚举暴力枚举 i 和 j ，没什么好说的12345678910func twoSum(nums []int, target int) []int {for i, _ := range nums {for j := i + 1; j < len(nums); j++ {if nums[i]+nums[j] == target {return []int{i, j}}}}return ni
-## [Golang 性能调优速查笔记](https://homeboyc.cn/blog/golang-%E6%80%A7%E8%83%BD%E8%B0%83%E4%BC%98%E9%80%9F%E6%9F%A5%E7%AC%94%E8%AE%B0/)  by [Atom](https://www.homeboyc.cn/), 2023-07-24
-
-# 技巧 unsafe转换字符串/字节切片的技巧 字符串 -> 字节切片：*(*[]byte)(unsafe.Pointer(&s)) 缓冲区不能修改，否则 go 会panic！ 字节切片 -> 字符串：*(*string)(unsafe.Pointer(&buf)) 重用缓冲区 复位缓冲器 bytes.Buffer.Reset buf = buf[:0] 尽可能直接分配所需大小的数组 清空Map
-## [把“用VSCode打开”按钮加入MacOS右键菜单](https://homeboyc.cn/blog/%E6%8A%8A%E7%94%A8vscode%E6%89%93%E5%BC%80%E6%8C%89%E9%92%AE%E5%8A%A0%E5%85%A5macos%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95/)  by [Atom](https://www.homeboyc.cn/), 2023-07-24
-
-打开自动操作新建文稿选择快速操作设置“工作流程收到当前”为文件或文件夹在左上方搜索栏搜索“运行” -》 找到“运行 Shell 脚本” 并将其拖入右侧 -》 将下方脚本填入文本框for f in "$@"; do open -a 'Visual Studio Code' "$f" done Copy 设置“传递输入”为作为自变量保存为Open in Visual Studio Code
 ## [java-sec-code 代码审计靶场题解](https://www.ek1ng.com/java-sec-code.html)  by [ek1ng](https://ek1ng.com/), 2023-07-20
 
 这个靶场包含了各类基本漏洞在java语言上的场景以及java安全特有的JNDI注入，反序列化，表达式注入等等，并且给出了相关的利用手段和修复方案。java-sec-code搭建环境可以用Docker搭建，不过想了想不太熟练java的包管理和web server部署这一套，并且本地起相比于容器也方便调试，于是决定本地起一份。由于我是archlinux，包管理安装的都是最新的jdk版本，靶场的jdk版
-## [分布式系统测试工具 muxy 初探](https://homeboyc.cn/blog/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95%E5%B7%A5%E5%85%B7-muxy-%E5%88%9D%E6%8E%A2/)  by [Atom](https://www.homeboyc.cn/), 2023-07-17
+## [当无回显RCE碰上Win服务器](https://blog.zgsec.cn/index.php/archives/306/)  by [曾哥](https://blog.zgsec.cn/), 2023-07-17
 
-# 前言 本篇文章主要简单介绍分布式系统测试工具 muxy 工具，在介绍前，我想先谈谈分布式系统测试。# Coding is easier than testing 编程比测试简单。我认为一个程序你把它写出来不是最难的，把它测好才是最难的。真的这么夸张吗？ 我想从一个简单的 HelloWorld 程序来谈谈一个系统的稳定运行所需要的条件。# 一个普通的 HelloWorld 我们需要考虑来自以
+0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，我们又该何去何从呢？故创建本文做个记录本人才疏学浅，如本人有所疏漏，也望各位师傅指点一番1# 无回显上线C2遇到无回显的RCE漏洞，上线C2是不二之选，但这部分并不是今天的重点：上传C2到服务器一般有以下操
 ## [CrewCTF 2023 Web Writeup](https://www.ek1ng.com/2023CrewCTFWP.html)  by [ek1ng](https://ek1ng.com/), 2023-07-14
 
 环境还在，赛后看看题，一共四道Web，都挺有意思的。sequence_galleryDo you like sequences?http://sequence-gallery.chal.crewc.tf:8080/ 123456789101112131415sequence = request.args.get('sequence', None)if sequence is None:    re
-## [使用 GitHub Actions Cache 加快 Workflow](https://blog.aflybird.cn/2023/07/use-github-actions-cache-to-speed-up-workflow/)  by [Bird](https://blog.aflybird.cn/), 2023-07-08
+## [渗透必备：使用Proxifier玩转代理](https://blog.zgsec.cn/index.php/archives/278/)  by [曾哥](https://blog.zgsec.cn/), 2023-07-02
 
-简单讲讲 GitHub Actions 的 Cache 功能，使用方式，以及探讨浅层的设计思想。虽然本文是我博客中为数不多的「教程」类文章，但我还是会侧重逻辑与思考的角度来讲述。详细教程请查看，GitHub Actions Cache 官方文档。
-## [『OSPP2023』我与 OSPP 的故事 —— 从听闻到中选](https://nickxu.me/2023/06/my-story-with-OSPP-from-hearing-to-being-selected.html)  by [NX](https://nickxu.me/), 2023-06-30
-
-6月26日下午3点，OSPP2023 中选结果正式发布，全球共有 1486 人成功申请，最终中选人数为 504 人鄙人非常荣幸地成为了这 504 个幸运儿的一份子，特撰此文，记录 我与 OSPP 的故事 —— 从听闻到中选当然，我也希望这篇博客能够吸引更多人参与开源，为开源项目做出自己的贡献给「杭电助手」打点小广告本次开源之夏活动，杭州电子科技大学共中选 13 人，其中 8 人来自杭电助手杭助本次
+0# 概述在日常的渗透过程中，不管是前期的外部打点还是后渗透，代理总是绕不开的话题。在前期的外部打点过程中，扫描和渗透测试会不断受到WAF的拦截，需要不停的更换IP进行扫描和渗透测试；而在后期的后渗透过程中，通过Frp和Nps等等工具从入口点出网之后，也需要对接代理进入目标内网进行内网渗透。本文内容是我个人自己摸索出来的，也有可能别的师傅也有类似的方法哈哈。1# Proxifier介绍本文我们需要
 ## [云原生安全分享会材料](https://www.ek1ng.com/cloudsecurity.html)  by [ek1ng](https://ek1ng.com/), 2023-06-28
 
 这是一篇用于给协会小学弟们分享的文章，粗略从各个角度讲了一讲，有任何问题都欢迎联系我交流，email：ek1ng@qq.com。基础知识🧀在开始之前，你需要能够基本掌握Docker和Kubernetes的使用。基本使用推荐看官方文档，配合一些教程动手尝试。https://www.docker.com/Docker 能区分镜像/容器，能基本使用命令，能写Dockerfile，粗略了解原理即可。htt
-## [开源之旅——OSPP](https://blog.marlene.top/index.php/develop/85.html)  by [Marlene](https://blog.marlene.top/), 2023-06-27
+## [SQL注入恶劣环境之可执行文件上传骚姿势](https://blog.zgsec.cn/index.php/archives/258/)  by [曾哥](https://blog.zgsec.cn/), 2023-06-01
 
-声明：以下内容仅代表本人观点，具有固有局限性，请辩证看待。任何有问题的地方也恳请指出。开源是什么我一直都认为开源是未来的趋势。用户创作的时代已经到来，作为一名开发者，手里握着强大的武器，个性化的创造自然不在话下。用户创作的目的不是孤芳自赏，而是自媒体式的分享。那么业务、框架的开发与不是自我消化，开源分享或许能够获得更大收益。个人的力量始终有限，我们不是大公司，技术在内部使用也能够逐渐完善。很多内容
-## [请还国内开源活动一片净土](https://blog.aflybird.cn/2023/06/please-stop-fucking-open-source-activities-in-china/)  by [Bird](https://blog.aflybird.cn/), 2023-06-26
+0# 概述在前期Web打点成功获得对应权限后，就进入了后渗透（提权、内网渗透、域渗透）的阶段，但是在有些时候，总会出现各种各样奇怪的情况，在此也分享一些经验出来。最近在打红队外援碰到了一个站点存在SQL注入，于是尝试用SqlMap对网站进行注入，发现注入成功，但由此也引发了一系列问题。可能你看完本篇文章，会觉得原理其实很简单。但试问你自己，在面对以下情况的时候，能想到通过这样的手法达成你的目的吗？
+## [阿里云 BrokenSesame RCE漏洞分析](https://www.ek1ng.com/BrokenSesame.html)  by [ek1ng](https://ek1ng.com/), 2023-05-12
 
-置顶声明：这篇博客我只发在了自己的独立博客、朋友圈和空间，没有发到其他的平台，没想到会有这么多的阅读量，所以必须要写个声明，保护一下好人：我不想文中涉及的社区，尤其是背后的公司受到损失。我同样也不代表任何团体与公司，不受任何利益。如果真的要对这个社区盖棺定论的话，我觉得这个社区的氛围，是非常学生友好，欢迎开源的。真的非常非常没话说，很热情积极与开放。首先是，社区举办了 学生开发者活动，一
-## [Go语言整体替换式Map的Lock-Free实现](https://blog.aflybird.cn/2023/06/go-lock-free-map-with-replace/)  by [Bird](https://blog.aflybird.cn/), 2023-06-16
+学习了Wiz团队发表的文章 https://www.wiz.io/blog/brokensesame-accidental-write-permissions-to-private-registry-allowed-potential-r，有很多巧妙的利用方法可以学习Wiz Research在文章中披露了被命名为BrokenSesame的一系列阿里云数据库服务漏洞，会导致未授权访问阿里云客户的Po
+## [2023西湖论剑·数字安全大会有感](https://blog.zgsec.cn/index.php/archives/214/)  by [曾哥](https://blog.zgsec.cn/), 2023-05-12
 
-今天来分享一个写业务过程中，一种特殊场景下的 Lock-Free Map 的实现。 来，我们先抛开看了三遍可能都还看不懂的题目，讲讲故事的背景。 背景/需求 假设我们需要一
-## [『算法拾遗』重学主流排序算法](https://nickxu.me/posts/sorting-algorithm.html)  by [NX](https://nickxu.me/), 2023-06-13
+前言今年终于抽空去参加西湖论剑·数字安全大会了，参加后感触颇多，回来的路上就想着写一篇文章来分享一下此行的收获。但苦于最近事务繁多，直到今日才有闲暇之时来落笔本文，各位师傅见谅。本来我们有四个人一块同行的，我和皓哥、垚垚以及俊哥，可惜中途由于私事，俊哥中途离开了我们回老家了。这是我们三个在西湖论剑的现场合影：PS：横跨整个杭州来参会，脚都要走废了哈哈注明：本文图片比较多，可以往下拉跳过图片，看一下
+## [Mysql是如何存储用户账号密码](https://www.ek1ng.com/mysql_password_storage.html)  by [ek1ng](https://ek1ng.com/), 2023-05-06
 
-衡量排序算法的好坏时间复杂度包含最好情况、最坏情况和平均情况数据有序度不同的影响空间复杂度是否是原地排序稳定性排序后，相同元素之间的顺序是否会改变O( n^2 )冒泡排序（Bubble Sort）依次比较相邻的元素，如果顺序错误，则交换它们。每轮排序将最大（或最小）的元素“冒泡”到正确的位置简单易懂，但效率较低，不适用于大规模数据排序过程初始化待排序数组，设为 arr ，数组长度为 n外层循环：重
-## [开源之夏2023申请书——优化CubeFS容器化部署](https://blog.aflybird.cn/2023/06/ospp-2023-proposal-cubefs/)  by [Bird](https://blog.aflybird.cn/), 2023-06-03
+研究这个问题主要是基于主机安全的一个需求场景，即在能够访问主机文件系统的情形下，如何在代码中通过读文件拿到Mysql的账号密码，并且做对应的安全检测，例如检测是否存在弱密码。账号密码存在哪首先，mysql的用户密码是存储在一个叫做mysql的数据库的user数据表中的，这是一张系统表。mysql5.712345FROM mysql:5.7ENV MYSQL_ROOT_PASSWORD=rootEX
+## [五一小记](https://blog.zgsec.cn/index.php/archives/210/)  by [曾哥](https://blog.zgsec.cn/), 2023-05-01
 
-因为没确定的细节太多了，以及主要的精力放在了和 Mentor 沟通上。所以申请书写得很粗糙和仓促，后续有机会尽量再写个新版。 以下申请书正文： 一、课题背景与
+概述今天是五一劳动节，先祝各位奋斗在一线的劳动者节日快乐！！！各位看到这篇文章的师傅们，你们也辛苦了，让我们一起做一名光荣的劳动者~这个月，算是最忙的一个月不为过了，不挺的面试、牵线搭桥、考证+比赛让人喘不过气来。说实话，我自己感觉身心俱疲，对各种事务都有些不上心了。但好在，随之而来的五一假期算是能给自己放松一下，顺便调整一下自己的心态。假期里面打开自己的博客看了一眼，博客已经有一个月没更新了，后
+## [Kubernetes 入门学习笔记](https://www.ek1ng.com/k8s-learning.html)  by [ek1ng](https://ek1ng.com/), 2023-04-25
+
+仅为学习笔记，建议参考如下文档https://kubernetes.io/zh-cn/docs/home/https://github.com/guangzhengli/k8s-tutorialshttps://minikube.sigs.k8s.io/docs/基础概念K8s组件Control Plane Components控制平面组件主要为集群做全局决策，比如资源调度，以及检测和响应集群事件
+## [Rego在云原生安全场景的使用](https://www.ek1ng.com/rego.html)  by [ek1ng](https://ek1ng.com/), 2023-04-19
+
+作者仅是云原生安全相关和opa相关生态的初学者，在此分享一些学习笔记和经验总结，以下是参考文章：http://blog.newbmiao.com/2020/03/13/opa-quick-start.htmlhttps://github.com/NewbMiao/opa-koanshttps://moelove.info/2021/12/06/Open-Policy-Agent-OPA-%E5%8
+## [MinIO信息泄漏漏洞分析](https://www.ek1ng.com/CVE-2023-28432.html)  by [ek1ng](https://ek1ng.com/), 2023-04-02
+
+参考文章：https://mp.weixin.qq.com/s/GNhQLuzD8up3VcBRIinmgQhttps://github.com/minio/minio/security/advisories/GHSA-6xvq-wj2x-3h3q漏洞比较新，很多师傅也写了博客记录了自己的尝试，很多地方可能写的不是特别明确，这里也结合了一些自己的思考去尝试分析。漏洞复现可以用vulhub上配好的d
+## [开源项目信息泄露笔记](https://blog.zgsec.cn/index.php/archives/205/)  by [曾哥](https://blog.zgsec.cn/), 2023-04-01
+
+目前本文并不完善，后续会持续更新0# 概述与现状当我们对一些项目进行渗透、审计的时候，以及HW红蓝攻防时，对目标的开源项目信息泄露就是重要一环整体现状2020年春，Unit 42研究人员通过GitHub Event API 分析了超过24,000份GitHub公开数据，发现有数千个文件中可能包含敏感信息在24,000份GitHub公开数据中，存在以下泄露：4109个配置文件2464个API密钥23
+## [安全测试工具（AST）学习笔记](https://www.ek1ng.com/iast.html)  by [ek1ng](https://ek1ng.com/), 2023-03-20
+
+主要参考了土爷的博客文章以及一些搜到的其他文章进行的学习https://lorexxar.cn/2020/09/21/whiteboxaudithttps://cloud.tencent.com/developer/article/2235686https://tttang.com/archive/1375/https://www.freebuf.com/sectool/290671.html为什
+## [PHP从零学习到Webshell免杀手册](https://blog.zgsec.cn/index.php/archives/197/)  by [曾哥](https://blog.zgsec.cn/), 2023-03-18
+
+手册概述手册版本号：V1.2-20230610 这是一本能让你从零开始学习PHP的WebShell免杀的手册，同时我会在内部群迭代更新开源地址： https://github.com/AabyssZG/WebShell-Bypass-Guide 如果师傅们觉得不错，可以给我点个Star哈哈~有什么新的WebShell免杀姿势、手法，欢迎与我交流渊龙Sec安全团队-AabyssZG整理本资料仅供学习
+## [避坑：Win10环境MS17-010漏洞复现过程](https://blog.zgsec.cn/index.php/archives/172/)  by [曾哥](https://blog.zgsec.cn/), 2023-03-10
+
+0# 概述MS17-010这个漏洞想必大家都已经很熟悉了吧，这里就不过多赘述（如果不了解的自行百度）最近，乌鸦安全公众号的 crow 师傅想要在Win10上复现MS17-010（永恒之蓝）的漏洞，为此也在群里面引发了群友的讨论，但是群友们多次尝试都是失败的，于是便找到我我发现目前互联网上，都没有记录Win10如何完美复现MS17-010的相关文章（有些文章也只是粗略的一笔带过，没有相关错误的解决方
+## [苛刻条件下:C2上传执行骚姿势](https://blog.zgsec.cn/index.php/archives/158/)  by [曾哥](https://blog.zgsec.cn/), 2023-02-25
+
+0# 概述在前期Web打点成功获得对应权限后，就进入了后渗透（提权、内网渗透、域渗透）的阶段，但是在有些时候，总会出现各种各样奇怪的情况，在此也分享一些经验出来。最近团队师傅找到我，想要让我帮忙提权一个站点，正好用上了这个骚操作，看网上好像都没有人记录这个手法，这边就浅浅记录一下，希望能帮助到屏幕前面的你。1# 情况描述通过某供应商服务系统的文件任意上传1day，上传了一个哥斯拉（Godzilla
