@@ -1,0 +1,60 @@
+{
+    "friends": [
+        {
+            "name": "戴兜",
+            "description": "Coding the world.",
+            "avatar": "https://avatars.githubusercontent.com/u/18638914?v=4",
+            "url": "https://im.daidr.me",
+            "rss": "https://daidr.me/feed"
+        },
+        {
+            "name": "Bird",
+            "description": "aFlyBird0",
+            "avatar": "https://avatars.githubusercontent.com/u/36830265?v=4",
+            "url": "https://blog.aflybird.cn/",
+            "rss": "https://blog.aflybird.cn/index.xml"
+        },
+        {
+            "name": "NX",
+            "description": "这家伙真勤奋，什么都留下了",
+            "avatar": "https://nickxu.me/static/favicon.jpg",
+            "url": "https://nickxu.me/",
+            "rss": "https://nickxu.me/rss2.xml"
+        },
+        {
+            "name": "柏喵Sakura",
+            "description": "过气 emo 师傅",
+            "avatar": "https://avatars.githubusercontent.com/u/38121125?v=4",
+            "url": "https://baimeow.cn/",
+            "rss": "https://service-rcg8qv8r-1253828577.sh.apigw.tencentcs.com/release/?url=https://baimeow.cn/index.xml&filter=^(?!.*(?:lives|about|friends)).*$"
+        },
+        {
+            "name": "Marlene",
+            "description": "<归零人生>",
+            "avatar": "https://avatars.hdu-cs.wiki/MarleneJiang",
+            "url": "https://blog.marlene.top/",
+            "rss": "https://blog.marlene.top/index.php/feed/rss/category/develop/"
+        },
+        {
+            "name": "ek1ng",
+            "description": "Hidden Gem",
+            "avatar": "https://avatars.hdu-cs.wiki/ek1ng",
+            "url": "https://ek1ng.com/",
+            "rss": "https://ek1ng.com/atom.xml"
+        },
+        {
+            "name": "Atom",
+            "description": "aka asjdf",
+            "avatar": "https://avatars.githubusercontent.com/u/22193008?v=4",
+            "url": "https://www.homeboyc.cn/",
+            "rss": "https://homeboyc.cn/index.xml"
+        },
+        {
+            "name": "xyxsw",
+            "description": "大相的问题",
+            "avatar": "https://avatars.hdu-cs.wiki/camera-2018",
+            "url": "https://xyxsw.ltd/",
+            "rss": "https://xyxsw.ltd/rss.xml"
+        }
+    ]
+}
