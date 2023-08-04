@@ -12,7 +12,7 @@ comments: true
 ## Recent Post
 
 {{- range .Posts }}
-## [{{ .Title }}]({{ .PostURL }})  
+### [{{ .Title }}]({{ .PostURL }})  
 >by [{{ .Author }}]({{ .AuthorURL }}), {{ .Date }}
 
 {{ .Content }}...
