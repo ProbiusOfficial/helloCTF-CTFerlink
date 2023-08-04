@@ -5,14 +5,24 @@
             "description": "Hidden Gem",
             "avatar": "https://avatars.hdu-cs.wiki/ek1ng",
             "url": "https://ek1ng.com/",
-            "rss": "https://ek1ng.com/atom.xml"
+            "rss": "https://ek1ng.com/atom.xml",
+            "Dir":"Web"
         },
         {
             "name": "曾哥",
             "description": "弱小和无知不是生存的障碍，傲慢才是！",
             "avatar": "https://blog.zgsec.cn/favicon.ico",
             "url": "https://blog.zgsec.cn/",
-            "rss": "https://blog.zgsec.cn/index.php/feed/"
+            "rss": "https://blog.zgsec.cn/index.php/feed/",
+            "Dir":"Web"
+        },
+        {
+            "name": "Steven Lynn's Blog",
+            "description": "Steven的个人博客",
+            "avatar": "https://blog.stv.lol/favicon.ico",
+            "url": "https://blog.stv.lol",
+            "rss": "https://blog.stv.lol/feed/",
+            "Dir":"Other"
         }
     ]
 }

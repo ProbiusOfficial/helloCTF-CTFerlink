@@ -1,14 +1,20 @@
-# My Friends
+---
+comments: true
+
+---
+# CTFer档案馆
+## List
 
 {{- range .Friends }}
 - [{{ .Name }}｜{{.Description}}]({{ .URL }})
   {{- end }}
 
-# Recent Blogs
+## Recent Post
 
 {{- range .Posts }}
-## [{{ .Title }}]({{ .PostURL }})  by [{{ .Author }}]({{ .AuthorURL }}), {{ .Date }}
+## [{{ .Title }}]({{ .PostURL }})  
+>by [{{ .Author }}]({{ .AuthorURL }}), {{ .Date }}
 
-{{ .Content }}
+{{ .Content }}...
 
 {{- end }}
