@@ -1,0 +1,48 @@
+name: 档案录入申请
+description: 将个人博客接入到HelloCTF的Archive中,请先将本站点(https://ctf.tj.cn)添加到你的友链中.
+title: "档案申请: "
+labels: []
+assignees:
+  - ProbiusOfficial 
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 站点名字
+      placeholder: 你的站点名字
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 站点地址
+      placeholder: 站点地址
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: 站点描述
+      placeholder: 这是站点描述
+    validations:
+      required: true
+  - type: input
+    id: avatar
+    attributes:
+      label: 站点图标或个人头像
+      description: 站点图标或个人头像
+      placeholder: https://example.com/avatar.png
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label:主要方向
+      description: 在CTF中主要擅长的方向 如果擅长实战请填写Web 其他请选择Other
+      options:
+        - Web
+        - Misc
+        - Crypto
+        - Reverse
+        - Pwn
+        - Other
