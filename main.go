@@ -26,6 +26,7 @@ type Post struct {
 	Content   string // 保留前 200 字
 	PostURL   string // 文章链接
 	AuthorURL string // 作者链接
+	Direction string // 擅长方向
 }
 
 func main() {
@@ -49,6 +50,7 @@ func main() {
 		fmt.Printf("内容：%s\n", post.Content)
 		fmt.Printf("文章链接：%s\n", post.PostURL)
 		fmt.Printf("作者链接：%s\n", post.AuthorURL)
+		fmt.Printf("擅长方向：%s\n", post.Direction)
 		fmt.Println("---------------------")
 	}
 

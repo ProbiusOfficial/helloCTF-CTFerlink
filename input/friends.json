@@ -6,7 +6,7 @@
             "avatar": "https://avatars.hdu-cs.wiki/ek1ng",
             "url": "https://ek1ng.com/",
             "rss": "https://ek1ng.com/atom.xml",
-            "Dir":"Web"
+            "direction":"Web"
         },
         {
             "name": "曾哥",
@@ -14,7 +14,7 @@
             "avatar": "https://blog.zgsec.cn/favicon.ico",
             "url": "https://blog.zgsec.cn/",
             "rss": "https://blog.zgsec.cn/index.php/feed/",
-            "Dir":"Web"
+            "direction":"Web"
         },
         {
             "name": "Steven Lynn's Blog",
@@ -22,7 +22,7 @@
             "avatar": "https://blog.stv.lol/favicon.ico",
             "url": "https://blog.stv.lol",
             "rss": "https://blog.stv.lol/feed/",
-            "Dir":"Other"
+            "direction":"Other"
         }
     ]
 }
