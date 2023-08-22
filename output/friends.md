@@ -9,10 +9,26 @@ comments: true
 - [Steven Lynn's Blog｜Steven的个人博客](https://blog.stv.lol)
 
 ## Recent Post
+### [Java RMI 攻击梳理总结](https://www.ek1ng.com/java-rmi.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-07-26
+
+RMI 是什么定义RMI（Remote Method Invocation）是远程方法调用，类似RPC（Remote Procedure Calls）。RPC是打包和传送数据结构，而在Java中，通常传递一个完整的对象，包含数据和操作数据的方法。通过RMI，能够让客户端JVM上的对象，像调用本地对象一样调用服务端JVM上的对象。RMI引入了 Stubs（客户端存根）和 Skeletons（服务端骨...
+### [重学 Java 反射机制](https://www.ek1ng.com/java-reflect-learning.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-07-25
+
+近期跟一些java的最新漏洞，发现自己的语言基础太差了，跟着p牛的java安全漫谈重新学一下反射，p牛的文章确实是讲复杂的东西讲的浅显易懂。反射的定义对象可以通过反射获取对应的类，类可以通过反射获取所有方法，拿到的方法可以调用，这种机制就是反射。反射机制在安全方面的意义例如我们要完成RCE，但代码中绝大多数时候并没有Runtime，ProcessBuilder等常见的用于命令执行的类来让我们调用。...
+### [java-sec-code 代码审计靶场题解](https://www.ek1ng.com/java-sec-code.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-07-20
+
+这个靶场包含了各类基本漏洞在java语言上的场景以及java安全特有的JNDI注入，反序列化，表达式注入等等，并且给出了相关的利用手段和修复方案。java-sec-code搭建环境可以用Docker搭建，不过想了想不太熟练java的包管理和web server部署这一套，并且本地起相比于容器也方便调试，于是决定本地起一份。由于我是archlinux，包管理安装的都是最新的jdk版本，靶场的jdk版...
 ### [当无回显RCE碰上Win服务器](https://blog.zgsec.cn/index.php/archives/306/)  
 >by [曾哥](https://blog.zgsec.cn/), 2023-07-17
 
 0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，我们又该何去何从呢？故创建本文做个记录本人才疏学浅，如本人有所疏漏，也望各位师傅指点一番1# 无回显上线C2遇到无回显的RCE漏洞，上线C2是不二之选，但这部分并不是今天的重点：上传C2到服务器一般有以下操...
+### [CrewCTF 2023 Web Writeup](https://www.ek1ng.com/2023CrewCTFWP.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-07-14
+
+环境还在，赛后看看题，一共四道Web，都挺有意思的。sequence_galleryDo you like sequences?http://sequence-gallery.chal.crewc.tf:8080/ 123456789101112131415sequence = request.args.get('sequence', None)if sequence is None:    re...
 ### [旅行日志：无锡&amp;苏州小记](https://blog.stv.lol/archives/61/)  
 >by [Steven Lynn's Blog](https://blog.stv.lol), 2023-07-09
 
@@ -33,6 +49,10 @@ comments: true
 >by [Steven Lynn's Blog](https://blog.stv.lol), 2023-06-29
 
 不知不觉大学都两年下来了，挺快的在上大学之前，我从未仔细思考过自己真正需要什么，仅仅被填鸭式的中式教育所驱使，也就是按照大众的思路：上个好小学->考个好初中->考个号高中->考个好大学->考个研究生->有个好工作大部分人似乎从未想过这样做的意义，似乎这样的一套人生轨迹已经成为了亘古不变的人类社会规律，就像是西西弗斯推着巨石，做着永无尽头而又徒劳无功的任务；也从来没有人指出另外的道路，似乎背离这条道...
+### [云原生安全分享会材料](https://www.ek1ng.com/cloudsecurity.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-06-28
+
+这是一篇用于给协会小学弟们分享的文章，粗略从各个角度讲了一讲，有任何问题都欢迎联系我交流，email：ek1ng@qq.com。基础知识🧀在开始之前，你需要能够基本掌握Docker和Kubernetes的使用。基本使用推荐看官方文档，配合一些教程动手尝试。https://www.docker.com/Docker 能区分镜像/容器，能基本使用命令，能写Dockerfile，粗略了解原理即可。htt...
 ### [Cloudcone Nexus CDN 踩坑&amp;简评](https://blog.stv.lol/archives/57/)  
 >by [Steven Lynn's Blog](https://blog.stv.lol), 2023-06-24
 
@@ -49,43 +69,23 @@ Cloudcone出了一个$4.5/年的CDN，一个月5GB的流量，国内能直连台
 >by [Steven Lynn's Blog](https://blog.stv.lol), 2023-05-27
 
 写在开头众多AI绘画工具的问世和发展已经有一段时间了。笔者虽然并非AI绘画的最早一批玩家，但也自认为是比较早入门的。最早的接触是在2022年夏OpenAI Dall-e的新模型发布后在官网体验到的。在2022年10月底，也就是NovelAI的二次元模型泄露后，AI绘图开始走向平民化，我也是在11月初左右开始正式接触这个领域。其实很早以前，大概在2022年12月就想写这篇文章了。之所以拖到今天才开始...
+### [阿里云 BrokenSesame RCE漏洞分析](https://www.ek1ng.com/BrokenSesame.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-05-12
+
+学习了Wiz团队发表的文章 https://www.wiz.io/blog/brokensesame-accidental-write-permissions-to-private-registry-allowed-potential-r，有很多巧妙的利用方法可以学习Wiz Research在文章中披露了被命名为BrokenSesame的一系列阿里云数据库服务漏洞，会导致未授权访问阿里云客户的Po...
 ### [2023西湖论剑·数字安全大会有感](https://blog.zgsec.cn/index.php/archives/214/)  
 >by [曾哥](https://blog.zgsec.cn/), 2023-05-12
 
 前言今年终于抽空去参加西湖论剑·数字安全大会了，参加后感触颇多，回来的路上就想着写一篇文章来分享一下此行的收获。但苦于最近事务繁多，直到今日才有闲暇之时来落笔本文，各位师傅见谅。本来我们有四个人一块同行的，我和皓哥、垚垚以及俊哥，可惜中途由于私事，俊哥中途离开了我们回老家了。这是我们三个在西湖论剑的现场合影：PS：横跨整个杭州来参会，脚都要走废了哈哈注明：本文图片比较多，可以往下拉跳过图片，看一下...
+### [Mysql是如何存储用户账号密码](https://www.ek1ng.com/mysql_password_storage.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-05-06
+
+研究这个问题主要是基于主机安全的一个需求场景，即在能够访问主机文件系统的情形下，如何在代码中通过读文件拿到Mysql的账号密码，并且做对应的安全检测，例如检测是否存在弱密码。账号密码存在哪首先，mysql的用户密码是存储在一个叫做mysql的数据库的user数据表中的，这是一张系统表。mysql5.712345FROM mysql:5.7ENV MYSQL_ROOT_PASSWORD=rootEX...
 ### [五一小记](https://blog.zgsec.cn/index.php/archives/210/)  
 >by [曾哥](https://blog.zgsec.cn/), 2023-05-01
 
 概述今天是五一劳动节，先祝各位奋斗在一线的劳动者节日快乐！！！各位看到这篇文章的师傅们，你们也辛苦了，让我们一起做一名光荣的劳动者~这个月，算是最忙的一个月不为过了，不挺的面试、牵线搭桥、考证+比赛让人喘不过气来。说实话，我自己感觉身心俱疲，对各种事务都有些不上心了。但好在，随之而来的五一假期算是能给自己放松一下，顺便调整一下自己的心态。假期里面打开自己的博客看了一眼，博客已经有一个月没更新了，后...
-### [大势已去：Google Bard深度评测](https://blog.stv.lol/archives/53/)  
->by [Steven Lynn's Blog](https://blog.stv.lol), 2023-04-20
+### [Kubernetes 入门学习笔记](https://www.ek1ng.com/k8s-learning.html)  
+>by [ek1ng](https://ek1ng.com/), 2023-04-25
 
-本文于3月23日由本人发表于AI Pulse，这里仅做同步本文关键词：Google, AI, Bard, ChatGPT, OpenAI, 微软, Meta, LaMDA模型, 语言模型, 跨语言能力, 数学能力, 逻辑推理能力北京时间3月21日，也就是笔者写稿的前天，Google开放了Bard对美国和英国用户的公测，而我也很快在第二天拿到了Bard的公测资格。Bard作为Google自研的AI，...
-### [开源项目信息泄露笔记](https://blog.zgsec.cn/index.php/archives/205/)  
->by [曾哥](https://blog.zgsec.cn/), 2023-04-01
-
-目前本文并不完善，后续会持续更新0# 概述与现状当我们对一些项目进行渗透、审计的时候，以及HW红蓝攻防时，对目标的开源项目信息泄露就是重要一环整体现状2020年春，Unit 42研究人员通过GitHub Event API 分析了超过24,000份GitHub公开数据，发现有数千个文件中可能包含敏感信息在24,000份GitHub公开数据中，存在以下泄露：4109个配置文件2464个API密钥23...
-### [PHP从零学习到Webshell免杀手册](https://blog.zgsec.cn/index.php/archives/197/)  
->by [曾哥](https://blog.zgsec.cn/), 2023-03-18
-
-手册概述手册版本号：V1.3-20230807 这是一本能让你从零开始学习PHP的WebShell免杀的手册，同时我会在内部群迭代更新开源地址： https://github.com/AabyssZG/WebShell-Bypass-Guide 如果师傅们觉得不错，可以给我点个Star哈哈~有什么新的WebShell免杀姿势、手法，欢迎与我交流渊龙Sec安全团队-AabyssZG整理本资料仅供学习...
-### [避坑：Win10环境MS17-010漏洞复现过程](https://blog.zgsec.cn/index.php/archives/172/)  
->by [曾哥](https://blog.zgsec.cn/), 2023-03-10
-
-0# 概述MS17-010这个漏洞想必大家都已经很熟悉了吧，这里就不过多赘述（如果不了解的自行百度）最近，乌鸦安全公众号的 crow 师傅想要在Win10上复现MS17-010（永恒之蓝）的漏洞，为此也在群里面引发了群友的讨论，但是群友们多次尝试都是失败的，于是便找到我我发现目前互联网上，都没有记录Win10如何完美复现MS17-010的相关文章（有些文章也只是粗略的一笔带过，没有相关错误的解决方...
-### [【破事水】去隔壁AI Pulse当编辑了](https://blog.stv.lol/archives/52/)  
->by [Steven Lynn's Blog](https://blog.stv.lol), 2023-03-09
-
-前因2023年是AI井喷的一年。但由于信息壁垒的存在，很多人并不了解AI的发展状况，而这在中文界尤其明显。因此，我和Marvin Cui决定创立一个周报的项目，起名为AI Pulse，中文直译即为“AI脉冲”，其实这个名字是ChatGPT帮忙想的，后续我也邀请到双霖加入到我们的团队中。简介我们的LOGO:其实是我用在线的LOGO生成器制作的以下是我们官网上的简介：你好，这里是AI Pulse，一个...
-### [【破事水】写一个Python脚本来运行ChatGPT](https://blog.stv.lol/archives/51/)  
->by [Steven Lynn's Blog](https://blog.stv.lol), 2023-03-06
-
-前言前段时间OpenAI放出了ChatGPT官方的API，目前的计费模式是按照输入和输出的词（token）数量计算，每个月有一个免费额度，超过后就要付费。目前的计费模式如下：token数量价格每个月前100k词（token）免费每个月100k-500k词（token）0.001元/词每个月500k-1M词（token）0.0008元/词每个月1M-10M词（token）0.0006元/词每个月10...
-### [苛刻条件下:C2上传执行骚姿势](https://blog.zgsec.cn/index.php/archives/158/)  
->by [曾哥](https://blog.zgsec.cn/), 2023-02-25
-
-0# 概述在前期Web打点成功获得对应权限后，就进入了后渗透（提权、内网渗透、域渗透）的阶段，但是在有些时候，总会出现各种各样奇怪的情况，在此也分享一些经验出来。最近团队师傅找到我，想要让我帮忙提权一个站点，正好用上了这个骚操作，看网上好像都没有人记录这个手法，这边就浅浅记录一下，希望能帮助到屏幕前面的你。1# 情况描述通过某供应商服务系统的文件任意上传1day，上传了一个哥斯拉（Godzilla...
-### [对于某些畸形PHP的加密和解密方法](https://blog.zgsec.cn/index.php/archives/147/)  
->by [曾哥](https://blog.zgsec.cn/), 2023-01-30
-
-0# 概述在Web渗透攻防的情况下，很多时候在前期打点，需要对Webshell进行各种免杀操作来过Waf或者防止防守方的觉察。这时候，各种PHP的加密算法层出不穷，都是将PHP的执行语句，通过加密的方式内嵌在文件当中，来做到“瞒天过海”。刚好最近碰到了一个PHP文件，用了两种畸形的加密方式，看了一眼网上好像也没好的文章讲讲怎么分析的，这里就带大家重温一下这两种加密的解密方式。1# 简单的Gzip+...
+仅为学习笔记，建议参考如下文档https://kubernetes.io/zh-cn/docs/home/https://github.com/guangzhengli/k8s-tutorialshttps://minikube.sigs.k8s.io/docs/基础概念K8s组件Control Plane Components控制平面组件主要为集群做全局决策，比如资源调度，以及检测和响应集群事件...
