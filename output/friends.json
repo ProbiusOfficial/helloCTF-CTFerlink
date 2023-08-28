@@ -27,6 +27,24 @@
     ],
     "posts": [
         {
+            "Title": "Telegram Instant View即时预览适配过程记录",
+            "Author": "Steven Lynn's Blog",
+            "Date": "2023-08-27",
+            "Content": "Telegram有个即时预览的功能，可以以阅读格式的页面形式加载网页，减少加载不必要的内容Telegram自己的Blog，以及主流内容平台（比如wikipedia, Medium, 知乎都有人做了适配）但直到今天一番研究才知道适配工作要在instant view上面写规则，并且提交审核这个工作可以说基本上由用户维护，官方通过排名的方式来选择每个网站最好的Instant View模板，也有2017和",
+            "PostURL": "https://blog.stv.lol/archives/72/",
+            "AuthorURL": "https://blog.stv.lol",
+            "Direction": ""
+        },
+        {
+            "Title": "英国铁路系统体验小结",
+            "Author": "Steven Lynn's Blog",
+            "Date": "2023-08-27",
+            "Content": "今年暑假去了趟英国，在英国生活了半个月的时间打算分几篇文章简述一下一些感受这篇文章主要讲讲英国的铁路系统（包括地铁和火车）文章偏体验向，可能比较流水账，想到哪写到哪概述因为起步时间早，英国铁路系统相当发达，早在19世纪就已经开始建成世界第一条地铁线路，后续又建了许多线路并不断完善城市铁路网络在伦敦市区，火车与地铁共用线路，可以凭oyster进站上下车，速度也与地铁速度一致，离开共用线路之后恢复至正",
+            "PostURL": "https://blog.stv.lol/archives/67/",
+            "AuthorURL": "https://blog.stv.lol",
+            "Direction": ""
+        },
+        {
             "Title": "Java RMI 攻击梳理总结",
             "Author": "ek1ng",
             "Date": "2023-07-26",
@@ -185,24 +203,6 @@
             "Date": "2023-05-06",
             "Content": "研究这个问题主要是基于主机安全的一个需求场景，即在能够访问主机文件系统的情形下，如何在代码中通过读文件拿到Mysql的账号密码，并且做对应的安全检测，例如检测是否存在弱密码。账号密码存在哪首先，mysql的用户密码是存储在一个叫做mysql的数据库的user数据表中的，这是一张系统表。mysql5.712345FROM mysql:5.7ENV MYSQL_ROOT_PASSWORD=rootEX",
             "PostURL": "https://www.ek1ng.com/mysql_password_storage.html",
-            "AuthorURL": "https://ek1ng.com/",
-            "Direction": ""
-        },
-        {
-            "Title": "五一小记",
-            "Author": "曾哥",
-            "Date": "2023-05-01",
-            "Content": "概述今天是五一劳动节，先祝各位奋斗在一线的劳动者节日快乐！！！各位看到这篇文章的师傅们，你们也辛苦了，让我们一起做一名光荣的劳动者~这个月，算是最忙的一个月不为过了，不挺的面试、牵线搭桥、考证+比赛让人喘不过气来。说实话，我自己感觉身心俱疲，对各种事务都有些不上心了。但好在，随之而来的五一假期算是能给自己放松一下，顺便调整一下自己的心态。假期里面打开自己的博客看了一眼，博客已经有一个月没更新了，后",
-            "PostURL": "https://blog.zgsec.cn/index.php/archives/210/",
-            "AuthorURL": "https://blog.zgsec.cn/",
-            "Direction": ""
-        },
-        {
-            "Title": "Kubernetes 入门学习笔记",
-            "Author": "ek1ng",
-            "Date": "2023-04-25",
-            "Content": "仅为学习笔记，建议参考如下文档https://kubernetes.io/zh-cn/docs/home/https://github.com/guangzhengli/k8s-tutorialshttps://minikube.sigs.k8s.io/docs/基础概念K8s组件Control Plane Components控制平面组件主要为集群做全局决策，比如资源调度，以及检测和响应集群事件",
-            "PostURL": "https://www.ek1ng.com/k8s-learning.html",
             "AuthorURL": "https://ek1ng.com/",
             "Direction": ""
         }
