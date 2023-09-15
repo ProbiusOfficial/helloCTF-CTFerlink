@@ -27,7 +27,7 @@
     ],
     "posts": [
         {
-            "Title": "Markdown Editor CVE  - Marktext",
+            "Title": "Markdown editor CVE of Marktext",
             "Author": "ek1ng",
             "Date": "2023-09-13",
             "Content": "无CVE编号 XSS2RCEhttps://github.com/marktext/marktext/issues/2601https://github.com/marktext/marktext/commit/0dd09cc6842d260528c98151c394c5f63d733b62影响 \u003c= 0.16.3 的marktext版本，点击链接触发。POC：123\u003ca href=\"javasc",
@@ -45,7 +45,7 @@
             "Direction": ""
         },
         {
-            "Title": "渗透基本思路总结",
+            "Title": "渗透测试思路总结",
             "Author": "ek1ng",
             "Date": "2023-08-29",
             "Content": "最近做了一阵子攻防相关的事，正好最近国护结束，做个总结，简单写一下渗透的基本思路（Check List）。不同的标题间内容并不完全独立，在实战中，比如先钓鱼获取到一台个人PC，但这台PC并不在办公网。而后通过收集个人PC的信息，能够登陆外网其他站点的后台，配合一个后台RCE进入办公网/生产网。这其中就有钓鱼，也有外网打点的部分。资产收集资产搜集通俗说就是“了解目标有什么东西”，讲究一个越全越好。路",
@@ -72,25 +72,7 @@
             "Direction": ""
         },
         {
-            "Title": "Java RMI 攻击梳理总结",
-            "Author": "ek1ng",
-            "Date": "2023-07-26",
-            "Content": "RMI 是什么定义RMI（Remote Method Invocation）是远程方法调用，类似RPC（Remote Procedure Calls）。RPC是打包和传送数据结构，而在Java中，通常传递一个完整的对象，包含数据和操作数据的方法。通过RMI，能够让客户端JVM上的对象，像调用本地对象一样调用服务端JVM上的对象。RMI引入了 Stubs（客户端存根）和 Skeletons（服务端骨",
-            "PostURL": "https://www.ek1ng.com/java-rmi-attack.html",
-            "AuthorURL": "https://ek1ng.com/",
-            "Direction": ""
-        },
-        {
-            "Title": "重学 Java 反射机制",
-            "Author": "ek1ng",
-            "Date": "2023-07-25",
-            "Content": "近期跟一些java的最新漏洞，发现自己的语言基础太差了，跟着p牛的java安全漫谈重新学一下反射，p牛的文章确实是讲复杂的东西讲的浅显易懂。反射的定义对象可以通过反射获取对应的类，类可以通过反射获取所有方法，拿到的方法可以调用，这种机制就是反射。反射机制在安全方面的意义例如我们要完成RCE，但代码中绝大多数时候并没有Runtime，ProcessBuilder等常见的用于命令执行的类来让我们调用。",
-            "PostURL": "https://www.ek1ng.com/java-reflect-learning.html",
-            "AuthorURL": "https://ek1ng.com/",
-            "Direction": ""
-        },
-        {
-            "Title": "java-sec-code 代码审计靶场题解",
+            "Title": "java-sec-code 靶场题解",
             "Author": "ek1ng",
             "Date": "2023-07-20",
             "Content": "这个靶场包含了各类基本漏洞在java语言上的场景以及java安全特有的JNDI注入，反序列化，表达式注入等等，并且给出了相关的利用手段和修复方案。java-sec-code搭建环境可以用Docker搭建，不过想了想不太熟练java的包管理和web server部署这一套，并且本地起相比于容器也方便调试，于是决定本地起一份。由于我是archlinux，包管理安装的都是最新的jdk版本，靶场的jdk版",
@@ -162,7 +144,7 @@
             "Direction": ""
         },
         {
-            "Title": "云原生安全分享会材料",
+            "Title": "云原生安全入门分享",
             "Author": "ek1ng",
             "Date": "2023-06-28",
             "Content": "这是一篇用于给协会小学弟们分享的文章，粗略从各个角度讲了一讲，有任何问题都欢迎联系我交流，email：ek1ng@qq.com。基础知识🧀在开始之前，你需要能够基本掌握Docker和Kubernetes的使用。基本使用推荐看官方文档，配合一些教程动手尝试。https://www.docker.com/Docker 能区分镜像/容器，能基本使用命令，能写Dockerfile，粗略了解原理即可。htt",
@@ -177,6 +159,15 @@
             "Content": "Cloudcone出了一个$4.5/年的CDN，一个月5GB的流量，国内能直连台湾中华电信的节点，体验不错，并且有waf防护，正好把博客的小站升级一下购买链接Hashtag 2023 CDN – 15 GB月流量$4.5/年购买链接Hashtag 2023 CDN – 210 GB月流量$8.99/年购买链接Hashtag 2023 CDN – 320 GB月流量$17.99/年购买链接Hasht",
             "PostURL": "https://blog.stv.lol/archives/57/",
             "AuthorURL": "https://blog.stv.lol",
+            "Direction": ""
+        },
+        {
+            "Title": "Java 反序列化安全入门——从URLDNS到Commons-Collections",
+            "Author": "ek1ng",
+            "Date": "2023-06-14",
+            "Content": "参考：《JAVA 安全漫谈》序列化和反序列化的意义如果需要在网络上传递信息，处于更快更简单更准确的需求，通信的双方肯定都需要一个优秀的格式，因此有JSON、XML、YAML等等数据交互格式。但他们通常过于简单，对于一些复杂内容难以表示，比如我希望表示一个对象，那么如果是JSON或者XML，可能定义起来就相当费劲了，因此例如Fastjson会在在JSON（XML）基础上改造，通过特定语法传递对象，而",
+            "PostURL": "https://www.ek1ng.com/java-deserialization-sec.html",
+            "AuthorURL": "https://ek1ng.com/",
             "Direction": ""
         },
         {
@@ -204,6 +195,15 @@
             "Content": "写在开头众多AI绘画工具的问世和发展已经有一段时间了。笔者虽然并非AI绘画的最早一批玩家，但也自认为是比较早入门的。最早的接触是在2022年夏OpenAI Dall-e的新模型发布后在官网体验到的。在2022年10月底，也就是NovelAI的二次元模型泄露后，AI绘图开始走向平民化，我也是在11月初左右开始正式接触这个领域。其实很早以前，大概在2022年12月就想写这篇文章了。之所以拖到今天才开始",
             "PostURL": "https://blog.stv.lol/archives/54/",
             "AuthorURL": "https://blog.stv.lol",
+            "Direction": ""
+        },
+        {
+            "Title": "阿里云 BrokenSesame RCE 漏洞分析",
+            "Author": "ek1ng",
+            "Date": "2023-05-12",
+            "Content": "Wiz团队发表的漏洞分析文章 : https://www.wiz.io/blog/brokensesame-accidental-write-permissions-to-private-registry-allowed-potential-r有很多巧妙的利用思路可以学习Wiz Research在文章中披露了被命名为BrokenSesame的一系列阿里云数据库服务漏洞，会导致未授权访问阿里云客户的",
+            "PostURL": "https://www.ek1ng.com/BrokenSesame.html",
+            "AuthorURL": "https://ek1ng.com/",
             "Direction": ""
         }
     ]
