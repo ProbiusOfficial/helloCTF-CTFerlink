@@ -17,6 +17,38 @@
             "direction":"Web"
         },
         {
+            "name": "Y4tacker",
+            "description": "宁静致远，淡泊明志",
+            "avatar": "https://y4tacker.github.io/images/me.jpeg",
+            "url": "https://y4tacker.github.io",
+            "rss": "https://y4tacker.github.io/atom.xml",
+            "direction":"Web"
+        },
+        {
+            "name": "4ra1n",
+            "description": "许少！",
+            "avatar": "https://4ra1n.github.io/img/av.jpg",
+            "url": "https://4ra1n.github.io/",
+            "rss": "",
+            "direction":"Web"
+        },
+        {
+            "name": "crazymanarmy",
+            "description": "A Noob's Learning Record",
+            "avatar": "https://s2.loli.net/2023/01/27/XA2Yr7TuwcNWhOp.jpg",
+            "url": "https://crazymanarmy.github.io/",
+            "rss": "https://crazymanarmy.github.io/atom.xml",
+            "direction":"MISC"
+        },
+        {
+            "name": "xia0ji233",
+            "description": "Nepnep team",
+            "avatar": "https://xia0ji233.pro/img/avatar.png",
+            "url": "https://xia0ji233.pro/",
+            "rss": "https://xia0ji233.pro/atom.xml",
+            "direction":"Web"
+        },
+        {
             "name": "Steven Lynn's Blog",
             "description": "Steven的个人博客",
             "avatar": "https://blog.stv.lol/favicon.ico",
