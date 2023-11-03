@@ -17,6 +17,38 @@
             "direction": "Web"
         },
         {
+            "name": "Y4tacker",
+            "description": "宁静致远，淡泊明志",
+            "avatar": "https://y4tacker.github.io/images/me.jpeg",
+            "url": "https://y4tacker.github.io",
+            "rss": "https://y4tacker.github.io/atom.xml",
+            "direction": "Web"
+        },
+        {
+            "name": "4ra1n",
+            "description": "许少！",
+            "avatar": "https://4ra1n.github.io/img/av.jpg",
+            "url": "https://4ra1n.github.io/",
+            "rss": "",
+            "direction": "Web"
+        },
+        {
+            "name": "crazymanarmy",
+            "description": "A Noob's Learning Record",
+            "avatar": "https://s2.loli.net/2023/01/27/XA2Yr7TuwcNWhOp.jpg",
+            "url": "https://crazymanarmy.github.io/",
+            "rss": "https://crazymanarmy.github.io/atom.xml",
+            "direction": "MISC"
+        },
+        {
+            "name": "xia0ji233",
+            "description": "Nepnep team",
+            "avatar": "https://xia0ji233.pro/img/avatar.png",
+            "url": "https://xia0ji233.pro/",
+            "rss": "https://xia0ji233.pro/atom.xml",
+            "direction": "Web"
+        },
+        {
             "name": "Steven Lynn's Blog",
             "description": "Steven的个人博客",
             "avatar": "https://blog.stv.lol/favicon.ico",
@@ -27,12 +59,21 @@
     ],
     "posts": [
         {
-            "Title": "从零学习AWD比赛指导手册",
-            "Author": "曾哥",
-            "Date": "2023-10-21",
-            "Content": "如果你要参加AWD相关比赛，相信本项目能给你带来帮助~手册版本号：V1.2.2-2023/10/21这是一本能让你从零开始学习AWD并深入AWD的手册，我也会根据经验和需求逐步完善相关内容如果你觉得本项目不错，欢迎给我点个Star，万分感谢~~ 有什么新的攻击或者防守的姿势、手法，欢迎与我交流0# 什么是AWD0.1# AWD赛制介绍「 攻防模式 | AWD (Attack With Defens",
-            "PostURL": "https://blog.zgsec.cn/archives/484.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
+            "Title": "计算机网络(谢希仁)",
+            "Author": "xia0ji233",
+            "Date": "2023-10-31",
+            "Content": "谢书作为考纲，也是需要好好看看的，接下来时间把谢书再过一遍把。首先列一下考纲吧，然后把重点知识列出来。计算机网络体系结构计算机网络概述计算机网络的概念、组成与功能什么是计算机网络？计算机网络是由若干节点和链路组成的互连的网络。计算机网络的组成？硬件软件的视角：是由软件，硬件及其对应的协议所组成。从工作方式来看：可以由核心部分和边缘部分组成（核心部分负责路由互联，边缘部分负责提供服务）。从组成上看：",
+            "PostURL": "https://xia0ji233.github.io/2023/10/31/ComputerNetwork-Sum/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
+            "Title": "域名解析系统",
+            "Author": "xia0ji233",
+            "Date": "2023-10-30",
+            "Content": "来学一学DNS吧。简介域名解析系统采用 客户端/服务器（Client/Server）模型，是一种应用层协议，它的作用是把我们所熟知的域名（domain ）翻译成 ip 地址。主要是人们通常乐意记住域名而不是记住ip，就好比学校里老师喜欢叫名字而不是叫你学号，但是学号又是唯一确定的一个学生，而名字是可以重复的。给出一个学生名称，查询对应学号的一个系统就叫学号解析系统，类似的，给出一个域名，查询一个对",
+            "PostURL": "https://xia0ji233.github.io/2023/10/30/DNS/",
+            "AuthorURL": "https://xia0ji233.pro/",
             "Direction": ""
         },
         {
@@ -63,12 +104,21 @@
             "Direction": ""
         },
         {
-            "Title": "HaE入门到精通：三条影响你一生的HaE规则",
-            "Author": "曾哥",
+            "Title": "Flask的部署",
+            "Author": "xia0ji233",
             "Date": "2023-10-01",
-            "Content": "0# 概述最近一段时间项目也比较多，再加上最近还在维护开源项目，所以挺忙的。乘着国庆时间，好好放松一下，顺便借着国庆期间更新一下自己许久未更新的博客哈哈~本篇文章，我们将深入学习著名BurpSuite工具的插件 HaE 的使用和拓展，希望这三条影响你一生的HaE规则能给你带来帮助~读者：你TM还知道回来啊！！！快两个月都没更新了都！！！在此，祝各位师傅们国庆节快乐！！！为国之安全而奋斗，为信息安全",
-            "PostURL": "https://blog.zgsec.cn/archives/481.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
+            "Content": "最近在做毕业设计的时候搞了一下，记录一下。环境在使用 app run 去跑 flask 项目的时候，会出现这么一句话：WARNING: This is a development server. Do not use it in a production deployment.大概意思就是，不要用这种方式部署到生产环境中，之前我倒是直接就是这么部署的，但是明显会感觉部分操作会发生卡顿，因此这里顺着",
+            "PostURL": "https://xia0ji233.github.io/2023/10/01/Flask-deploy/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
+            "Title": "Fourier-Serials",
+            "Author": "xia0ji233",
+            "Date": "2023-09-15",
+            "Content": "Today study something about Fourier serials Taylor SerialAs we all know,Taylor formula give us the way for expressing complicated function as simple polynomial function.We should clearly remember the",
+            "PostURL": "https://xia0ji233.github.io/2023/09/15/Forier-Serials/",
+            "AuthorURL": "https://xia0ji233.pro/",
             "Direction": ""
         },
         {
@@ -81,12 +131,21 @@
             "Direction": ""
         },
         {
-            "Title": "2023成都CCS大会\u0026amp;\u0026amp;补天城市沙龙有感",
-            "Author": "曾哥",
-            "Date": "2023-09-01",
-            "Content": "前言今年很巧，8月23日项目结束后，24号2023成都CCS网络安全大会就召开了。我今年刚好在武汉做项目，想了想，结束直接一个飞机飞往成都，开启了本次成都安全之旅。成都的师傅们都很热情，也结识了不少新的朋友，参加了成都CCS大会以及补天城市沙龙，感觉收获颇多，故写本文记录一下。由于参加项目和大会的缘故，博客已经一个半月还未更新了，直到今日才有闲暇之时来落笔本文，各位师傅见谅哈哈。补天城市沙龙合照：",
-            "PostURL": "https://blog.zgsec.cn/archives/319.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
+            "Title": "Probability Theory（5）",
+            "Author": "xia0ji233",
+            "Date": "2023-09-11",
+            "Content": "another question about confidence interval. ProblemToday I got a problem about the difference of two normal distribution variables of confidence interval. Obviously it is much harder than  the ratio b",
+            "PostURL": "https://xia0ji233.github.io/2023/09/11/Probability-Theory5/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
+            "Title": "概率论（4）",
+            "Author": "xia0ji233",
+            "Date": "2023-08-31",
+            "Content": "一道压轴题引发的思考~题目分析题目如下：这个题目就这么短，而且也非常的清晰，却是 22 年的选择压轴题，这题深入做过之后发现常规的很多做法都需要记住一些公式或者是较大的计算量（答案确实也如此）。而在这里我感觉到可以使用另外一种比较简单的思路做出这题。解题首先从题目描述提取信息之后得到以下两个比较重要的信息。$X \\sim N(0,1),f_X(x)=\\frac{1}{\\sqrt{2\\pi}}e^{",
+            "PostURL": "https://xia0ji233.github.io/2023/08/31/Probability-Theory4/",
+            "AuthorURL": "https://xia0ji233.pro/",
             "Direction": ""
         },
         {
@@ -117,6 +176,33 @@
             "Direction": ""
         },
         {
+            "Title": "浅析Smartbi逻辑漏洞(2)",
+            "Author": "Y4tacker",
+            "Date": "2023-08-22",
+            "Content": "浅析Smartbi逻辑漏洞(2)写在前面仅分享逻辑漏洞部分补丁绕过思路，不提供完整payload厂商已发布补丁：https://www.smartbi.com.cn/patchinfo正文简单提一下，补丁部分由smartbi.security.patch.PatchFilter(来源于SecurityPatchExt.ext)做加载并处理，这里我们主要关注补丁返回的状态码的具体含义即可，可以看到只",
+            "PostURL": "https://y4tacker.github.io/2023/08/23/year/2023/8/%E6%B5%85%E6%9E%90Smartbi%E9%80%BB%E8%BE%91%E6%BC%8F%E6%B4%9E-2/",
+            "AuthorURL": "https://y4tacker.github.io",
+            "Direction": ""
+        },
+        {
+            "Title": "概率论（3）",
+            "Author": "xia0ji233",
+            "Date": "2023-08-09",
+            "Content": "参数估计和置信区间计算。引入很多老师都用这样的一个例子引入，假设我想知道全国身高的均值。这个值 $\\mu$ 必然是客观存在的，但是给全国十四亿人全部测一遍显然这个工作量太大，对于学过数理统计的人来说，解决这个的最好的办法自然就是抽样。理论极限中心定理告诉我们，当样本量足够大时，所有的分布最终都趋于正态分布，下图就是标准正态分布的概率密度图。概率密度函数反映了概率在该点的变化率，变化率越大显然证明该",
+            "PostURL": "https://xia0ji233.github.io/2023/08/09/Probability-Theory3/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
+            "Title": "游戏安全的学习（4）",
+            "Author": "xia0ji233",
+            "Date": "2023-08-01",
+            "Content": "游戏安全的学习（4）—— 猫里奥外挂编写。这也就是一个单机游戏，如果游戏作者觉得侵权了可以联系删除。游戏分析突然想起了之前一个很搞人心态的游戏，就是这个猫里奥，各种陷阱防不胜防，因此今天打算用点科技的力量去对抗这个东西。八关版的外挂已经有人做了，这里我用九关版的，下载地址。坐标读取和修改首先最简单的就是获取坐标，使用CE反复横跳搜索内存，最终确定了 X 和 Y 坐标的地址分别是在 +78DDC 和",
+            "PostURL": "https://xia0ji233.github.io/2023/08/01/Game4/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
             "Title": "java-sec-code 靶场题解",
             "Author": "ek1ng",
             "Date": "2023-07-20",
@@ -126,12 +212,12 @@
             "Direction": ""
         },
         {
-            "Title": "当无回显RCE碰上Win服务器",
-            "Author": "曾哥",
+            "Title": "计算机网络复习（3）",
+            "Author": "xia0ji233",
             "Date": "2023-07-17",
-            "Content": "0# 概述在日常的渗透过程中，总会碰到一些RCE漏洞，无回显的RCE漏洞更是家常便饭。对于无回显的漏洞利用，网上有不少文章，但我看了半天，都是Linux系统的当无回显RCE漏洞碰上Win服务器，我们又该何去何从呢？故创建本文做个记录本人才疏学浅，如本人有所疏漏，也望各位师傅指点一番1# 无回显上线C2遇到无回显的RCE漏洞，上线C2是不二之选，但这部分并不是今天的重点：上传C2到服务器一般有以下操",
-            "PostURL": "https://blog.zgsec.cn/archives/306.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
+            "Content": "数据链路层数据链路层的功能在物理层的基础上向网络层提供服务，对网络层表现为一条无差错的逻辑链路。提供的服务数据链路层可能提供以下的服务：成帧：链路层封装IP数据报，帧的结构由链路层协议规定。链路接入：媒体访问控制协议（Medium Access Control，MAC）规定了帧在链路上传输的规则.可靠交付：如果链路层实现可靠交付，通常是通过确认和重传取得的。对于高比特差错的链路来说，链路层通常要实",
+            "PostURL": "https://xia0ji233.github.io/2023/07/17/408-2-3/",
+            "AuthorURL": "https://xia0ji233.pro/",
             "Direction": ""
         },
         {
@@ -149,60 +235,6 @@
             "Date": "2023-07-09",
             "Content": "在苏北那个鬼地方关了两年多，尤其之前一直在被各种考试折腾，终于放暑假了，于是临时起意去长三角几个城市玩两天一个人出行最大的好处在于自由度，可以想到哪里就去哪里以及，和朋友们面基！这篇文章想到哪写哪，因此全文可能看起来比较流水账多图警告Day1 无锡说起来以前经常从无锡的高速或者火车站经过，但从来没有真正到过无锡，所以这一次来算是第一次玩先说下无锡的印象吧，个人觉得无锡这个城市既现代化又不怎么现代化",
             "PostURL": "https://blog.stv.lol/archives/61/",
-            "AuthorURL": "https://blog.stv.lol",
-            "Direction": ""
-        },
-        {
-            "Title": "群晖NAS折腾笔记：FRP内网穿透\u0026amp;FTP",
-            "Author": "Steven Lynn's Blog",
-            "Date": "2023-07-06",
-            "Content": "在今年年初我购入了j4125工控机目前这台的配置是exsi主系统，虚拟机中的子系统是Windows 10，OpenWRT，群晖，也就是NAS+软路由+主机的三合一配置其实在这篇文章之前应该还有组装篇和系统安装篇，之前一直没写，先鸽着FRP内网穿透配置篇考虑到国内很难买到便宜的大带宽服务器，而用国外的服务器做穿透也很难满足速度和延迟要求，再加上服务端配置可能比较困难，所以我直接使用的SakuraFr",
-            "PostURL": "https://blog.stv.lol/archives/60/",
-            "AuthorURL": "https://blog.stv.lol",
-            "Direction": ""
-        },
-        {
-            "Title": "渗透必备：使用Proxifier玩转代理",
-            "Author": "曾哥",
-            "Date": "2023-07-02",
-            "Content": "0# 概述在日常的渗透过程中，不管是前期的外部打点还是后渗透，代理总是绕不开的话题。在前期的外部打点过程中，扫描和渗透测试会不断受到WAF的拦截，需要不停的更换IP进行扫描和渗透测试；而在后期的后渗透过程中，通过Frp和Nps等等工具从入口点出网之后，也需要对接代理进入目标内网进行内网渗透。本文内容是我个人自己摸索出来的，也有可能别的师傅也有类似的方法哈哈。1# Proxifier介绍本文我们需要",
-            "PostURL": "https://blog.zgsec.cn/archives/278.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
-            "Direction": ""
-        },
-        {
-            "Title": "中信银行美国运通借记卡评测",
-            "Author": "Steven Lynn's Blog",
-            "Date": "2023-06-30",
-            "Content": "最近开的卡有点多...如上篇介绍广发银行的美国运通卡所述，美国运通的人民币借记卡有免换汇的优点，目前体验下来中信银行的这张美国运通借记卡也完全一致，虽然卡面上写了member，但并没有给什么权益，毕竟这只是一张借记卡而已建议先阅读广发这篇[post cid=\"45\" /]这张卡是5月份推出的，时至今日仍然未出现在美国运通中国官网上结论先说在前面：如果你已经有一张美国运通卡或者Mastercard/",
-            "PostURL": "https://blog.stv.lol/archives/59/",
-            "AuthorURL": "https://blog.stv.lol",
-            "Direction": ""
-        },
-        {
-            "Title": "最好的年华献给最糟糕的时光：我两年的大学生活",
-            "Author": "Steven Lynn's Blog",
-            "Date": "2023-06-29",
-            "Content": "不知不觉大学都两年下来了，挺快的在上大学之前，我从未仔细思考过自己真正需要什么，仅仅被填鸭式的中式教育所驱使，也就是按照大众的思路：上个好小学-\u003e考个好初中-\u003e考个号高中-\u003e考个好大学-\u003e考个研究生-\u003e有个好工作大部分人似乎从未想过这样做的意义，似乎这样的一套人生轨迹已经成为了亘古不变的人类社会规律，就像是西西弗斯推着巨石，做着永无尽头而又徒劳无功的任务；也从来没有人指出另外的道路，似乎背离这条道",
-            "PostURL": "https://blog.stv.lol/archives/58/",
-            "AuthorURL": "https://blog.stv.lol",
-            "Direction": ""
-        },
-        {
-            "Title": "云原生安全入门分享",
-            "Author": "ek1ng",
-            "Date": "2023-06-28",
-            "Content": "这是一篇用于给协会小学弟们分享的文章，粗略从各个角度讲了一讲，有任何问题都欢迎联系我交流，email：ek1ng@qq.com。基础知识🧀在开始之前，你需要能够基本掌握Docker和Kubernetes的使用。基本使用推荐看官方文档，配合一些教程动手尝试。https://www.docker.com/Docker 能区分镜像/容器，能基本使用命令，能写Dockerfile，粗略了解原理即可。htt",
-            "PostURL": "https://www.ek1ng.com/cloudsecurity.html",
-            "AuthorURL": "https://ek1ng.com/",
-            "Direction": ""
-        },
-        {
-            "Title": "Cloudcone Nexus CDN 踩坑\u0026amp;简评",
-            "Author": "Steven Lynn's Blog",
-            "Date": "2023-06-24",
-            "Content": "Cloudcone出了一个$4.5/年的CDN，一个月5GB的流量，国内能直连台湾中华电信的节点，体验不错，并且有waf防护，正好把博客的小站升级一下购买链接Hashtag 2023 CDN – 15 GB月流量$4.5/年购买链接Hashtag 2023 CDN – 210 GB月流量$8.99/年购买链接Hashtag 2023 CDN – 320 GB月流量$17.99/年购买链接Hasht",
-            "PostURL": "https://blog.stv.lol/archives/57/",
             "AuthorURL": "https://blog.stv.lol",
             "Direction": ""
         }
