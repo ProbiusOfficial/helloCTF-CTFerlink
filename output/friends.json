@@ -59,6 +59,15 @@
     ],
     "posts": [
         {
+            "Title": "一周年小记\u0026amp;\u0026amp;那些快乐的技术时光",
+            "Author": "曾哥",
+            "Date": "2023-12-14",
+            "Content": "1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原定的目标（每个月写一篇原创技术文）多出不少，也算是suprise吧[...]",
+            "PostURL": "https://blog.zgsec.cn/archives/548.html",
+            "AuthorURL": "https://blog.zgsec.cn/",
+            "Direction": ""
+        },
+        {
             "Title": "亿赛通电子文档安全管理系统远程代码执行漏洞浅析",
             "Author": "Y4tacker",
             "Date": "2023-12-13",
@@ -226,15 +235,6 @@
             "Date": "2023-11-07",
             "Content": "pwnable.kr-blackjack 一个很有趣的逻辑漏洞分析。题目分析根据所给信息Hey! check out this C implementation of blackjack game!I found it onlinehttp://cboard.cprogramming.com/c-programming/114023-simple-blackjack-program.htmlI l",
             "PostURL": "https://xia0ji233.github.io/2023/11/07/pwnable_blackjack/",
-            "AuthorURL": "https://xia0ji233.pro/",
-            "Direction": ""
-        },
-        {
-            "Title": "Pwnable.kr-coin1",
-            "Author": "xia0ji233",
-            "Date": "2023-11-07",
-            "Content": "pwnable.kr-coin1 简单的二分查找。题目分析根据所给信息Mommy, I wanna play a game!(if your network response time is too slow, try nc 0 9007 inside pwnable.kr server)Running at : nc pwnable.kr 9007这题没有给我们账号，不过可以用其它的账号去连接欸",
-            "PostURL": "https://xia0ji233.github.io/2023/11/07/pwnable_coin1/",
             "AuthorURL": "https://xia0ji233.pro/",
             "Direction": ""
         }
