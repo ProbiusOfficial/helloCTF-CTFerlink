@@ -2,7 +2,6 @@ name: Apply for ICP
 description: Use this template to apply for ICP.
 title: "[ICP APPLICATION]: "
 labels: ["ICP Application"]
-assignees: ''
 body:
   - type: input
     id: product-name
