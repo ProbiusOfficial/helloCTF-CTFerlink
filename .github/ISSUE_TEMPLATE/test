@@ -1,0 +1,68 @@
+name: Apply for ICP
+description: Use this template to apply for ICP.
+title: "[ICP APPLICATION]: "
+labels: ["ICP Application"]
+assignees: ''
+body:
+  - type: input
+    id: product-name
+    attributes:
+      label: Product Name
+      description: "Please provide the name of your product."
+      placeholder: "e.g., Super Cool App"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: product-introduction
+    attributes:
+      label: Product Introduction
+      description: "Provide a brief introduction of your product."
+      placeholder: "e.g., Our app solves all your problems!"
+    validations:
+      required: true
+  
+  - type: input
+    id: product-preview-image
+    attributes:
+      label: Product Preview Image
+      description: "Provide a link to an image preview of your product."
+      placeholder: "e.g., https://example.com/image.png"
+    validations:
+      required: true
+  
+  - type: input
+    id: presentation-slides
+    attributes:
+      label: Presentation Slides
+      description: "Provide a link to your presentation slides."
+      placeholder: "e.g., https://slides.com/yourpresentation"
+    validations:
+      required: true
+  
+  - type: input
+    id: code-url
+    attributes:
+      label: Code URL
+      description: "Provide the GitHub link to your project's repository."
+      placeholder: "e.g., https://github.com/username/repository"
+    validations:
+      required: true
+  
+  - type: input
+    id: video-demo-deployed-url-mobile-application
+    attributes:
+      label: Video demo/Deployed URL/Mobile application
+      description: "Provide a link to your video demo, deployed application, or mobile application."
+      placeholder: "e.g., https://example.com/demo"
+    validations:
+      required: false
+  
+  - type: textarea
+    id: team-information
+    attributes:
+      label: Team Information
+      description: "Provide information about your team."
+      placeholder: "e.g., John Doe, Jane Doe, Developer Team"
+    validations:
+      required: true
