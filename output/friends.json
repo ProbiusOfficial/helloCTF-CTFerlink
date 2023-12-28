@@ -59,6 +59,15 @@
     ],
     "posts": [
         {
+            "Title": "Apache OFBiz未授权命令执行浅析(CVE-2023-51467)",
+            "Author": "Y4tacker",
+            "Date": "2023-12-27",
+            "Content": "Apache OFBiz未授权命令执行浅析(CVE-2023-51467)未修复的权限绕过还是之前那个遗留的问题，首先是权限绕过，首先还是做一个简单的回顾关于登录的校验在org.apache.ofbiz.webapp.control.LoginWorker#checkLogin做处理来判断用户是否登录，可以看到这里的判断逻辑非常简单，跳过前两个判断，在后面只需要login返回的不是error，则为",
+            "PostURL": "https://y4tacker.github.io/2023/12/27/year/2023/12/Apache-OFBiz%E6%9C%AA%E6%8E%88%E6%9D%83%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E6%B5%85%E6%9E%90-CVE-2023-51467/",
+            "AuthorURL": "https://y4tacker.github.io",
+            "Direction": ""
+        },
+        {
             "Title": "Apusic权限绕过浅析",
             "Author": "Y4tacker",
             "Date": "2023-12-26",
@@ -227,15 +236,6 @@
             "Content": "比赛概述这是2023浙江省大学生网络与信息安全决赛的Misc篇，将本次比赛的相关题目进行了整理，欢迎各位师傅的复现和交流学习~比赛总体emmmm怎么说呢，难受死了，好多题目都是临门一脚的状态。。。比赛当时是断网环境，真的是可惜了相关题目附件已经上传到开源项目，题库地址：https://github.com/CTF-Archives/2023-zjsdxs/如有需要，从上面拉取题目即可[...]",
             "PostURL": "https://blog.zgsec.cn/archives/504.html",
             "AuthorURL": "https://blog.zgsec.cn/",
-            "Direction": ""
-        },
-        {
-            "Title": "某系统全版本前台RCE绕过总结",
-            "Author": "Y4tacker",
-            "Date": "2023-11-12",
-            "Content": "63ad3c308aa90afd6725b0adbc5aaf396fe6a49769435089ef5574bd32ca40449c3e06df20814f543efe985c53634aa612382f7cfbf67a5114f90aa226b1f3a2117126741fb1bce45422cc45d5b0203b4dc897356c33545fc1853dbda4a028d98a21c3",
-            "PostURL": "https://y4tacker.github.io/2023/11/12/year/2023/11/%E6%9F%90%E7%B3%BB%E7%BB%9F%E5%85%A8%E7%89%88%E6%9C%AC%E5%89%8D%E5%8F%B0RCE%E7%BB%95%E8%BF%87%E6%80%BB%E7%BB%93/",
-            "AuthorURL": "https://y4tacker.github.io",
             "Direction": ""
         }
     ]
