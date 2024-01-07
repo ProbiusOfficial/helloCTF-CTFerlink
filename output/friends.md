@@ -44,7 +44,7 @@ Today study something about Fourier serials Taylor SerialAs we all know,Taylor f
 ### [Markdown editor CVE of Marktext](https://www.ek1ng.com/MarkdownEditorCVE1.html)  
 >by [ek1ng](https://ek1ng.com/), 2023-09-13
 
-无CVE编号 XSS2RCEhttps://github.com/marktext/marktext/issues/2601https://github.com/marktext/marktext/commit/0dd09cc6842d260528c98151c394c5f63d733b62影响 <= 0.16.3 的marktext版本，点击链接触发。POC：123<a href="javasc...
+无CVE编号 XSS2RCEhttps://github.com/marktext/marktext/issues/2601https://github.com/marktext/marktext/commit/0dd09cc6842d260528c98151c394c5f63d733b62影响 <= 0.16.3 的marktext版本，点击链接触发。POC：123...
 ### [Probability Theory（5）](https://xia0ji233.github.io/2023/09/11/Probability-Theory5/)  
 >by [xia0ji233](https://xia0ji233.pro/), 2023-09-11
 
