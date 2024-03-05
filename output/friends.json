@@ -59,6 +59,15 @@
     ],
     "posts": [
         {
+            "Title": "LLVM——交叉编译的配置",
+            "Author": "xia0ji233",
+            "Date": "2024-03-04",
+            "Content": "记录一下LLVM交叉编译踩的坑交叉编译关于这个概念其实很简单，生成其它平台上的可执行文件的编译过程就叫交叉编译。环境准备第一步先实现最简单的跨平台交叉编译，我使用Windows版本的LLVM，尝试编译 Linux 平台的 ELF 文件。首先交叉编译要进行一定的环境配置，配置 include path 和库的目录。因为交叉编译需要用到一些 gcc 的库，所以自己编译 glibc 然后复制 inclu",
+            "PostURL": "https://xia0ji233.github.io/2024/03/04/LLVM5/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
             "Title": "52PoJie论坛2024春节红包-Web解题思路",
             "Author": "曾哥",
             "Date": "2024-02-19",
@@ -227,15 +236,6 @@
             "Content": "Airpods Pro 2 大概算是我今年买的最后一个产品了，也是我馋了很久却一直没买的产品在此之前，我的主力耳机是 Airpods Pro 一代，考虑到一代已经用了将近三年时间，也是时候换一个了没考虑其他耳机的原因主要还是因为我的主要使用的生态产品还是苹果生态为主，Airpods的无缝连接在各设备之间互相流转很方便于是在tb的双十二活动中以1500出头的价格拿下（耳机本体+一年以换代修）开箱包装",
             "PostURL": "https://blog.stv.lol/archives/79/",
             "AuthorURL": "https://blog.stv.lol",
-            "Direction": ""
-        },
-        {
-            "Title": "一周年小记\u0026amp;\u0026amp;那些快乐的技术时光",
-            "Author": "曾哥",
-            "Date": "2023-12-14",
-            "Content": "1# 概述不知不觉，个人博客已经开办了一年了回头看一年前的自己，仍有些感触，遂在闲暇时光提笔写下一些碎碎念数了数我在这一年发表过的博客文章，共计约二十余篇，其实我是真没想到能有那么多文章，比我原定的目标（每个月写一篇原创技术文）多出不少，也算是suprise吧[...]",
-            "PostURL": "https://blog.zgsec.cn/archives/548.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
             "Direction": ""
         }
     ]
