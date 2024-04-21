@@ -80,7 +80,7 @@
             "Title": "IP-Guard权限绕过浅析",
             "Author": "Y4tacker",
             "Date": "2024-04-17",
-            "Content": "226125863bbf5aa56517b3f0c09a775281668980f8d10e95e65c0c765d7b0c74091d903d905cb1780a8298b564cf8153e5a81795b888396ccc50b51fb6f7ea966b04c5f2b55c99e264122d017f42684c774e9c78755ec028eb703f2b01fd21f13c11a2",
+            "Content": "IP-Guard权限绕过浅析比较适合新手学习的一个审计案例，代码简单无阅读障碍权限绕过IP-Guard采用CodeIgniter框架二次开发，从微步情报看作用仅是”可以绕过权限验证，调用后台接口进行任意文件读取、删除。攻击者可利用该漏洞读取数据库配置信息，进而接管数据库”通常来说，CodeIgniter中的鉴权通常是在控制器中的构造函数中因为代码不多，最后可以发现涉及文件读写的在mApplyLis",
             "PostURL": "https://y4tacker.github.io/2024/04/17/year/2024/4/IP-Guard%E6%9D%83%E9%99%90%E7%BB%95%E8%BF%87%E6%B5%85%E6%9E%90/",
             "AuthorURL": "https://y4tacker.github.io",
             "Direction": ""
