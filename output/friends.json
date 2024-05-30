@@ -59,11 +59,11 @@
     ],
     "posts": [
         {
-            "Title": "ShowDocV3.2.5-SQL注入分析",
+            "Title": "ShowDocV3.2.5最新版SQL注入及老版本反序列化分析",
             "Author": "Y4tacker",
             "Date": "2024-05-28",
-            "Content": "7212acd0ac7ad16b0463bf041a1a1b8d9a325900c68a4afa22bc450d9da69d66e651f10d57830a0435483bb01660ef7016e72ecd2f2335f7d0b44231ef8d0c64f2cf1277dd54ed0ad9f7bdd4e5f8958c9f18807a1fe65577ea7942ccbd735422f1f408",
-            "PostURL": "https://y4tacker.github.io/2024/05/28/year/2024/5/ShowDocV3-2-5-SQL%E6%B3%A8%E5%85%A5%E5%88%86%E6%9E%90/",
+            "Content": "dc86c7ed6961e0c46c0dd46b427bf6779327349f110f959d90a4eae1c38ff107b5299e84087bc7c5716270ee2145470ff0a78bec463b6e05aaae8186344413e18bc47ae0159a1ad80bded0ba87f9c6b93ffa20d17c138b56e62cb3c2abeb585399166b",
+            "PostURL": "https://y4tacker.github.io/2024/05/28/year/2024/5/ShowDocV3-2-5%E6%9C%80%E6%96%B0%E7%89%88SQL%E6%B3%A8%E5%85%A5%E5%8F%8A%E8%80%81%E7%89%88%E6%9C%AC%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%88%86%E6%9E%90/",
             "AuthorURL": "https://y4tacker.github.io",
             "Direction": ""
         },
@@ -86,10 +86,10 @@
             "Direction": ""
         },
         {
-            "Title": "浅析瑞友天翼应用虚拟化系统远程代码执行",
+            "Title": "浅析瑞友天翼应用虚拟化系统前台反序列化(V\u003c=7.0.5.1)",
             "Author": "Y4tacker",
             "Date": "2024-05-07",
-            "Content": "浅析瑞友天翼应用虚拟化系统远程代码执行看到应急公告简单分析学习一波，漏洞不算难，代码也比较简单，有些细节还是蛮有意思，算是温故而知新，顺便也捡起一些很久没碰的PHP知识鉴权这个系统文件不多，功能点大多是需要登录，我们可以重点关注一下鉴权部分，在为数不多的控制器当中可以看到，在admin/index两个控制器中部分功能点都存在对于登录用户的判断，分别对应函数checklogin与admincheck",
+            "Content": "浅析瑞友天翼应用虚拟化系统前台反序列化(V\u003c=7.0.5.1)看到应急公告简单分析学习一波，漏洞不算难，代码也比较简单，有些细节还是蛮有意思，算是温故而知新，顺便也捡起一些很久没碰的PHP知识鉴权这个系统文件不多，功能点大多是需要登录，我们可以重点关注一下鉴权部分，在为数不多的控制器当中可以看到，在admin/index两个控制器中部分功能点都存在对于登录用户的判断，分别对应函数checklogi",
             "PostURL": "https://y4tacker.github.io/2024/05/07/year/2024/5/%E6%B5%85%E6%9E%90%E7%91%9E%E5%8F%8B%E5%A4%A9%E7%BF%BC%E5%BA%94%E7%94%A8%E8%99%9A%E6%8B%9F%E5%8C%96%E7%B3%BB%E7%BB%9F%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/",
             "AuthorURL": "https://y4tacker.github.io",
             "Direction": ""
