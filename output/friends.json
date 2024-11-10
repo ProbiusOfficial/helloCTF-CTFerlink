@@ -59,6 +59,15 @@
     ],
     "posts": [
         {
+            "Title": "windows内核（3）——PAE分页（2-9-9-12分页）",
+            "Author": "xia0ji233",
+            "Date": "2024-11-09",
+            "Content": "来学一下2-9-9-12分页，也叫PAE分页为什么要有2-9-9-12分页这一定一定是最会疑惑的一个问题，为什么要多拆一个 2 出来呢？回答：扩展物理内存。我们都知道，32位的系统最大只能装 4GB 的内存，多了它用不上，然而这个说法比较片面，实则它可以装更多的内存，在 10-10-12 分页的模式中，我们知道，物理地址就是 32 位的，而物理地址位宽决定了物理内存最大的限度。那么 2-9-9-1",
+            "PostURL": "https://xia0ji233.github.io/2024/11/09/WindowsKernel3/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
             "Title": "windows内核（2）——页属性实验",
             "Author": "xia0ji233",
             "Date": "2024-11-07",
@@ -226,15 +235,6 @@
             "Date": "2024-07-28",
             "Content": "edb75cb95fa274697a13f0de16c2ee476727ef39af866137ce7abba675d366a2667c35534d4818bf16ba3f2a4062b556dfe52391e960c4665bb66cac3069e79df97713e0b70ba674bdbc250f295481e19e3a0d0cb7fe0dab3af3a3419646da40d1709a",
             "PostURL": "https://y4tacker.github.io/2024/07/28/year/2024/7/%E5%B8%86%E8%BD%AFchannel%E6%8E%A5%E5%8F%A3%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%E5%8F%8A%E5%88%A9%E7%94%A8%E9%93%BE%E6%80%BB%E7%BB%93/",
-            "AuthorURL": "https://y4tacker.github.io",
-            "Direction": ""
-        },
-        {
-            "Title": "浅析帆软FineVis默认插件前台RCE",
-            "Author": "Y4tacker",
-            "Date": "2024-07-26",
-            "Content": "75fe1026383dfaa0a967acb72c258091d824449c325b83a7a7fa894da20e58875ee9377f2f6b70632955e7127ad3d74064c0dd2bf0b57f712c6877d79ef90dc5c212f8b446a26e74ef229c33ebc9489a344fa6f8bc94237c48fec5c935d69abe222fe0",
-            "PostURL": "https://y4tacker.github.io/2024/07/26/year/2024/7/%E6%B5%85%E6%9E%90%E5%B8%86%E8%BD%AFFineVis%E9%BB%98%E8%AE%A4%E6%8F%92%E4%BB%B6%E5%89%8D%E5%8F%B0RCE/",
             "AuthorURL": "https://y4tacker.github.io",
             "Direction": ""
         }
