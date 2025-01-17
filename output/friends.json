@@ -185,7 +185,7 @@
             "Direction": ""
         },
         {
-            "Title": "强网杯S8初赛pwn writeup",
+            "Title": "强网杯S8初赛Pwn writeup",
             "Author": "xia0ji233",
             "Date": "2024-11-07",
             "Content": "本次强网杯初赛做出两道pwn题，把详细题解写一下记录。baby_heap附件下载2.35 的版本，IDA打开，堆菜单题，经典增删改查之外，还有两个额外的操作，一个是环境变量，另一个是任意地址写 0x10 字节。del 里面有很明显的UAF漏洞。show 只有一次机会，但是可以同时将 libc 和堆地址一起泄露出来，只需要我们释放两个相同大小的堆块之后，bk_nextsize 和 fd_nextsi",
