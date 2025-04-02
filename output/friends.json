@@ -113,15 +113,6 @@
             "Direction": ""
         },
         {
-            "Title": "再见2024 | 幸运且美好",
-            "Author": "ek1ng",
-            "Date": "2025-01-28",
-            "Content": "再见2024 | 幸运且美好记得23年末时，大四上的我刚结束秋招，在多个offer的抉择中选择来到字节。初到沪城，新的城市，新的公司，新的出租屋，新的工作内容，一切都是新的开始，那时，我写下了再见2023。而如今一年过去，我已回到再熟悉不过的杭州，从一个临近毕业的求职大学生转变成日复一日工作的社畜，我想，这一年，有太多变化。23年许下的期愿 谈恋爱在临近毕业时很幸运的认识了同校的女友，她很温柔，很",
-            "PostURL": "https://www.ek1ng.com/Goodbye2024.html",
-            "AuthorURL": "https://ek1ng.com/",
-            "Direction": ""
-        },
-        {
             "Title": "windows句柄表学习（1）",
             "Author": "xia0ji233",
             "Date": "2025-01-26",
@@ -236,6 +227,15 @@
             "Content": "Apache Struts2 文件上传逻辑绕过(CVE-2024-53677)(S2-067)前言​    Apache官方公告又更新了一个Struts2的漏洞，考虑到很久没有发无密码的博客了，再加上漏洞的影响并不严重，因此公开分享利用的思路。分析影响版本Struts 2.0.0 - Struts 2.3.37 (EOL), Struts 2.5.0 - Struts 2.5.33, Struts",
             "PostURL": "https://y4tacker.github.io/2024/12/16/year/2024/12/Apache-Struts2-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E9%80%BB%E8%BE%91%E7%BB%95%E8%BF%87-CVE-2024-53677-S2-067/",
             "AuthorURL": "https://y4tacker.github.io",
+            "Direction": ""
+        },
+        {
+            "Title": "强网杯S8决赛Reverse writeup",
+            "Author": "xia0ji233",
+            "Date": "2024-12-11",
+            "Content": "复盘一下强网决赛的Reverse题。S1mpleVM附件下载题目名字已经很明显的告诉你了，就是 vm 逆向。基本分析入口其实没啥，就是输入 32 长度的 passcode 然后校验，启动方式是 ./secret_box.exe quest 命令行传参。可以找到最关键的函数 sub_140001D30 就是 VM 入口。这个函数里面很明显的 vm_handler1234567891011121314",
+            "PostURL": "https://xia0ji233.github.io/2024/12/11/qwb2024_final_reverse/",
+            "AuthorURL": "https://xia0ji233.pro/",
             "Direction": ""
         }
     ]
