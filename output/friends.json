@@ -185,24 +185,6 @@
             "Direction": ""
         },
         {
-            "Title": "从CVE-2025-30208看任意文件读取利用",
-            "Author": "曾哥",
-            "Date": "2025-03-30",
-            "Content": "0# 概述师傅们好久不见！最近不是特别忙，就研究研究最新的漏洞。刚好最近一大批漏洞都爆出来了，比如 CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, CVE-2025-1974 Kubernetes Ingress-Nginx Admission Controller RCE Escalation，是危害性极大的高危漏洞，在内网渗透中能直接击穿K8S集群。",
-            "PostURL": "https://blog.zgsec.cn/archives/713.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
-            "Direction": ""
-        },
-        {
-            "Title": "【白帽访谈录】云安全将成为未来安全研究主战场-会议纪要",
-            "Author": "曾哥",
-            "Date": "2025-02-28",
-            "Content": "{bilibili bvid=\"BV19T9gY4ETm\" page=\"\"/}很高兴能参与这期白帽访谈录，也感谢各位师傅的支持~也随时欢迎各位师傅和我友好交流哈哈！本期访谈的回放直播已经上传B站，链接： https://www.bilibili.com/video/BV19T9gY4ETm，感谢各位师傅的一键三连！！！欢迎大家关注渊龙Sec安全团队公众号，干货满满哦~{dotted startCo",
-            "PostURL": "https://blog.zgsec.cn/archives/711.html",
-            "AuthorURL": "https://blog.zgsec.cn/",
-            "Direction": ""
-        },
-        {
             "Title": "某系统前台组合拳RCE",
             "Author": "Y4tacker",
             "Date": "2025-02-23",
@@ -235,6 +217,24 @@
             "Date": "2025-02-09",
             "Content": "来了解一下Windows的APC机制。APCAPC介绍APC 即 Asyncroneus Procedure Call，异步过程调用。学过之前的知识我们知道，线程是不能被杀掉、挂起和恢复的，线程在执行的时候自己占据着CPU，其他线程如何控制它呢？改变一个线程的行为，这就需要APC了。APC结构体APC的结构体如下所示123456789101112131415161718kd\u003e dt _KAPCnt",
             "PostURL": "https://xia0ji233.github.io/2025/02/09/WindowsAPC1/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
+            "Title": "windows句柄表学习（1）",
+            "Author": "xia0ji233",
+            "Date": "2025-01-26",
+            "Content": "来了解一下Windows内核的句柄表。句柄句柄就类似 Linux 的文件描述符，指示了某个进程在内核对象的偏移，内核可以通过这个下标找到对应的内核对象。1234HANDLE g_hMutex = ::CreateMutex( NULL , FALSE, \"XYZ\");HANDLE g_hMutex = ::OpenMutex( MUTEX_ALL_ACCESSFALSE, \"XYZ\");HANDL",
+            "PostURL": "https://xia0ji233.github.io/2025/01/26/WindowsObjectTable1/",
+            "AuthorURL": "https://xia0ji233.pro/",
+            "Direction": ""
+        },
+        {
+            "Title": "windows进程与线程学习——深入研究线程调度（2）",
+            "Author": "xia0ji233",
+            "Date": "2025-01-25",
+            "Content": "深入研究一下线程调度，由于篇幅较多，分章节分析，第二篇。进程挂靠一个进程可以包含多个线程，线程结构体中会指向自己所属的进程。切换到这个线程的时候，会将对应的 cr3 切换到该进程的页目录基址，那么这个线程就可以访问这个进程的所有资源了。前面逆向的时候看到过，在切换 cr3 的时候，是拿到了 KTHREAD.ApcState.Process，而并不是 KTHREAD.Process，这个因为没学 A",
+            "PostURL": "https://xia0ji233.github.io/2025/01/25/WindowsProcess5/",
             "AuthorURL": "https://xia0ji233.pro/",
             "Direction": ""
         }
