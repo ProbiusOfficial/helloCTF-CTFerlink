@@ -113,6 +113,15 @@
             "Direction": ""
         },
         {
+            "Title": "信息搜集之边缘资产和隐形资产的发掘",
+            "Author": "曾哥",
+            "Date": "2025-11-30",
+            "Content": "0# 概述0.1 本文原创首发于国家网络空间云安全社区一眨眼的时间，马上就要过年了，不知道大家今年都过得如何？近期有不少师傅在抖音咨询我，问我说：常规的漏洞原理和利用都捻熟于心，但是为什么在SRC挖掘和攻防中，往往就是挖不到漏洞呢？我给了两点回复：第一个就是实战的经验比较少，对于漏洞在哪出现，有什么手法还掌握的不多；第二个是信息搜集没有得到要领，只会僵硬的进行信息搜集，对于边缘资产和隐形资产的发掘",
+            "PostURL": "https://blog.zgsec.cn/archives/729.html",
+            "AuthorURL": "https://blog.zgsec.cn/",
+            "Direction": ""
+        },
+        {
             "Title": "强网杯S9决赛Pwn writeup",
             "Author": "xia0ji233",
             "Date": "2025-11-26",
@@ -226,15 +235,6 @@
             "Date": "2025-07-02",
             "Content": "d5bbf63b983168fb9cf0422698dce164b3b689fc252cba3faf3c75a652cdd7c0542690352b3ccfd95568bcdfd22e06b269ecaac13fedf5ec80edcfabe636ba58c0bd7707365d4cb09a79587d7876384f00fb8b2d3df17b696f7eefba94b5c2d66b93ca",
             "PostURL": "https://y4tacker.github.io/2025/07/02/year/2025/07/%E5%A5%91%E7%BA%A6%E9%94%81%E6%9C%80%E6%96%B0%E5%89%8D%E5%8F%B0%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C%E5%8F%8A%E8%8A%B1%E5%BC%8F%E7%BB%95WAF%E6%80%9D%E8%B7%AF/",
-            "AuthorURL": "https://y4tacker.github.io",
-            "Direction": ""
-        },
-        {
-            "Title": "浅析Gogs 远程命令执行(CVE-2024-56731)",
-            "Author": "Y4tacker",
-            "Date": "2025-06-25",
-            "Content": "61250ef0d935a4a9d2eb682839325b52407d6a12bdde2eb831889d10036bea8106e2cbab4d0545b5551fe1a0fea6f3d58b8ee44d7110304bee8ff7333000d35c5b12e6d6807bdab93f096bd15b0c005660b70215b08b001ec238e70442e03904450ea3",
-            "PostURL": "https://y4tacker.github.io/2025/06/25/year/2025/06/%E6%B5%85%E6%9E%90Gogs-%E8%BF%9C%E7%A8%8B%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C-CVE-2024-56731/",
             "AuthorURL": "https://y4tacker.github.io",
             "Direction": ""
         }
