@@ -73,6 +73,10 @@ hide:
 -   :fontawesome-solid-blog:{ .lg .middle } __最近更新__
 
     ---
+    ### [What Sticks: Collected, Not Learned](https://y4tacker.github.io/2026/06/24/year/2026/06/What-Sticks-Collected-Not-Learned/)  
+    >by [Y4tacker](https://y4tacker.github.io), 2026-06-24
+
+    接上篇分享 PPT 的 Plugin (https://github.com/Y4tacker/codex-ai-ppt)补一下分享的内容，反正都不是什么私密东西最开始，我并不打算讲这个，在最终决定这个选题之前，我大概花了一个月时间研究了很多方向。本质上，它们都是我最近感兴趣、正在探索的一些东西和技术其中有三个选题我本来是真的打算讲的一个叫 “代码，还是那些代码”，大纲其实都想得差不多了，但看着最...
     ### [腾讯游戏安全竞赛2026决赛题解](https://xia0ji233.github.io/2026/04/20/tencent-race-2026-final/)  
     >by [xia0ji233](https://xia0ji233.pro/), 2026-04-19
 
@@ -89,7 +93,7 @@ hide:
     >by [xia0ji233](https://xia0ji233.pro/), 2026-01-24
 
     由于去年很多分析的不到位的地方，故今年想详细分析一遍整体逻辑。本篇帖子基于赛后复盘的角度去分析，相比之前发文会有更多详细且有理有据的逻辑分析，少很多暴力和猜测的结果（虽然一些部分还是需要靠猜），旨在真正学习其中的技术。题目描述（1）在intel CPU/64位Windows10系统上运行sys，成功加载驱动（0.5分）（2）能在双机环境运行驱动并调试（1分）（3）优化驱动中的耗时算法，并给出dem...
-    ### [如何用大模型十分钟完成ComfyUI未授权至命令执行利用分析(CVE-2025-67303)](https://y4tacker.github.io/2026/01/06/year/2026/%E6%88%91%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8D%81%E5%88%86%E9%92%9F%E5%AE%8C%E6%88%90ComfyUI%E6%9C%AA%E6%8E%88%E6%9D%83%E8%87%B3%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C-CVE-2025-67303/)  
+    ### [如何用大模型十分钟完成ComfyUI未授权至命令执行利用分析(CVE-2025-67303)](https://y4tacker.github.io/2026/01/06/year/2026/01/%E6%88%91%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8D%81%E5%88%86%E9%92%9F%E5%AE%8C%E6%88%90ComfyUI%E6%9C%AA%E6%8E%88%E6%9D%83%E8%87%B3%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C-CVE-2025-67303/)  
     >by [Y4tacker](https://y4tacker.github.io), 2026-01-06
 
     e363dd29daea40b734c478649d7a0b044daaaa5675b9f0c6aeff787f1f1b4de9008c9a9a31f1b7eb5643dbee05c0959657426e89ad211a3129fdd0e611a00b42fcb0b62da123b7cdb55ca59f3573bcd29836de591bd8559e802f2e28c491082c19983d...
@@ -149,9 +153,5 @@ hide:
     >by [Y4tacker](https://y4tacker.github.io), 2025-07-09
 
     如何从灰盒角度快速复现Weaver最新SQL注入​    好久没写不加密的博客了，因为比较简单外面也半公开了，就简单写写思路吧，至于POC就不直接贴出来了，这篇文章主要是面向像漂亮鼠这样的Java新手​    作为安全从业者的我们，每天都会面对各种各样的补丁和系统更新，很多时候不知道该如何下手，尤其是对于初学者，在尝试复现闭源漏洞时，经常会感到无从下手。面对复杂的系统架构、冗长的代码，以及各种陌生...
-    ### [泛微最新补丁分析(20250704)](https://y4tacker.github.io/2025/07/09/year/2025/07/%E6%B3%9B%E5%BE%AE%E6%9C%80%E6%96%B0%E8%A1%A5%E4%B8%81%E5%88%86%E6%9E%90-20250704/)  
-    >by [Y4tacker](https://y4tacker.github.io), 2025-07-08
-
-    69b1ac3a8c7b27f3f5f24b3b8a7400bd6b1e48e4e4a74e3a9d5b0d94adacfef139866dca5f9c0752a208c27b415054195b8c9b09fcf4ba840127a35d6fbe535eecd06f6e3687d07dd41c43e8c9e03d37b2fa2fd462518b848ba4ce55dbd50da8160a3b...
 
 </div>
